@@ -8,6 +8,12 @@
    transitions must not be overridden. */
 @import "../components/sites/upkeepmedspa-com-9d00bd1f/upkeep.css";
 
+/* Small, targeted corrections layered on top of the ported sheet: a scrollable
+   mobile menu, coarse-pointer touch targets, and a reduced-motion safety net.
+   Imported after upkeep.css so it wins, and kept separate so the generated
+   stylesheet is never hand-edited. */
+@import "../components/sites/upkeepmedspa-com-9d00bd1f/polish.css";
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {

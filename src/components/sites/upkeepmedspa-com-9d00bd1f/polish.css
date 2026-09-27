@@ -1,0 +1,163 @@
+/* ========================================================================
+   UPKEEP CLONE — premium polish layer
+
+   Small, targeted corrections layered on top of the ported stylesheet
+   (upkeep.css). Nothing here changes the design language, the palette, the
+   type scale or any desktop visual. Every rule exists to fix a specific,
+   observed defect.
+
+   Imported AFTER upkeep.css in src/app/globals.css.
+
+   Contents
+   1. Mobile menu: unreachable links on short screens (functional fix)
+   2. Touch targets on coarse pointers only (zero desktop impact)
+   3. Reduced-motion: belt-and-braces for scroll-driven reveals
+   ======================================================================== */
+
+/* ---------------------------------------------------------------------
+   1. MOBILE MENU — last links unreachable on short screens
+
+   Observed: the menu is a centered flex column of 15 links + a button.
+   At 360x800 and 375x812 that content is 892 / 898px tall against an
+   800 / 812px viewport, and the panel had `overflow-y: visible`, so
+   "Upcoming Events", "Contact" and the "Book Now" button rendered past
+   the bottom edge with no way to scroll to them. `elementFromPoint`
+   could not reach them at any scroll offset.
+
+   Fix: make the panel scrollable, and use the `safe` alignment keyword so
+   it still centres when the content fits but falls back to start-aligned
+   when it overflows (plain `center` clips the top in an overflow box).
+   `overscroll-behavior` stops the page behind from rubber-banding.
+   ------------------------------------------------------------------- */
+.mobile-menu {
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  -webkit-overflow-scrolling: touch;
+  justify-content: safe center;
+  /* 64px top clears the 48px close button (top:16 + 48) when scrolled to the
+     very start; 32px bottom gives the last link room to breathe. */
+  padding-block: var(--space-16) var(--space-8);
+}
+
+/* Flex children default to `flex-shrink: 1`; without this the links get
+   squeezed vertically on short screens instead of overflowing cleanly. */
+.mobile-menu > * {
+  flex-shrink: 0;
+}
+
+/* Short viewports: 15 links at a 24px gap needs ~962px of content, which does
+   not fit even a 932px-tall phone. Tightening the rhythm to a 16px gap lets the
+   full list sit on taller phones while the overflow rule above keeps every link
+   reachable on short ones. Mobile-only, and it does not touch desktop. */
+@media (max-height: 960px) {
+  .mobile-menu {
+    gap: var(--space-4);
+    padding-block: var(--space-16) var(--space-6);
+  }
+}
+
+/* ---------------------------------------------------------------------
+   2. TOUCH TARGETS — coarse pointers only
+
+   Several controls are visually small but are real touch targets. These
+   rules are scoped to `(pointer: coarse)` so a mouse user sees the design
+   byte-for-byte identical to the reference, while a finger gets a target
+   that meets the WCAG 2.2 / platform minimums.
+
+   The visible size of the dot is untouched — the 10px circle is redrawn
+   as a pseudo-element and the button becomes a transparent 24x24 target.
+   ------------------------------------------------------------------- */
+@media (pointer: coarse) {
+  /* Testimonial dots: 10x10 visual. Lift the tap area to 24x24 and widen
+     the row's gap so the 24px target circles around adjacent dots do not
+     intersect (WCAG 2.5.8 "spacing" exception).
+     `!important` is required because the target sizes and colours these
+     dots with inline styles and sets the active background imperatively;
+     the desktop (fine-pointer) rendering is left exactly as the reference. */
+  .testimonial-dots {
+    gap: 14px !important;
+  }
+  .testimonial-dot {
+    position: relative;
+    width: 24px !important;
+    height: 24px !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 50%;
+    background: transparent !important;
+  }
+  .testimonial-dot::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--color-accent);
+    border-radius: 50%;
+    background: transparent;
+    transition: background-color var(--transition-fast),
+      border-color var(--transition-fast), transform var(--transition-fast);
+  }
+  .testimonial-dot[aria-current="true"]::before {
+    background: var(--color-accent);
+  }
+  .testimonial-dot:active::before {
+    transform: translate(-50%, -50%) scale(1.15);
+  }
+
+  /* Footer legal links measured 36px tall at 430/390/375/360 wide. */
+  .footer__legal-links a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+
+  /* The compact CTA measured 40px. */
+  .btn--small {
+    min-height: 44px;
+  }
+
+  /* Nav wordmark measured 111x20 on small screens; grow the hit area
+     without changing the flex row's height or the logo's rendered size. */
+  .nav__logo::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    min-width: 120px;
+    height: 44px;
+    transform: translate(-50%, -50%);
+  }
+  .nav__logo {
+    position: relative;
+  }
+}
+
+/* ---------------------------------------------------------------------
+   3. REDUCED MOTION
+
+   The reveals use `animation-timeline: view()`, a scroll-driven timeline.
+   The ported `prefers-reduced-motion` block sets `animation-duration:
+   0.01ms !important`, which does not reliably neutralise a progress-based
+   animation across engines. Verified at 1440x900 that all 16 below-fold
+   `.fade-in` elements computed to `opacity: 1` under reduced motion, so
+   this is a safety net rather than a fix — it guarantees the content is
+   visible even if an engine ignores the scroll timeline.
+   ------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .fade-in,
+  .reveal-up {
+    opacity: 1 !important;
+    clip-path: none !important;
+    animation: none !important;
+  }
+
+  .parallax-bg,
+  .hero__scroll-hint {
+    animation: none !important;
+    transform: none !important;
+  }
+}

@@ -129,6 +129,10 @@ export function TestimonialsSection() {
                 className="testimonial-dot"
                 data-dot={index}
                 aria-label={`Show testimonial ${index + 1}`}
+                /* Marks the visible panel's dot. The 10px circle is the visual;
+                   this drives the coarse-pointer target in polish.css, where the
+                   inline background below is suppressed. */
+                aria-current={index === current ? "true" : undefined}
                 onClick={() => setCurrent(index)}
                 style={{
                   ...DOT_STYLE,

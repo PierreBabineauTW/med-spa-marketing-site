@@ -1,10 +1,15 @@
 /**
- * Real content for the UPKEEP Med Spa home page clone, copied verbatim from
- * https://upkeepmedspa.com/ — not paraphrased, not placeholdered.
+ * Page content for the UPKEEP-style home page.
  * site-key: upkeepmedspa-com-9d00bd1f   page-key: root-8a5edab2
  *
- * Every string, href and image path matches the live page. Image paths point at
- * the downloaded assets in public/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/.
+ * Section copy and imagery come from the reference site and are intentionally
+ * preserved, because they ARE the design. Business identity — brand name,
+ * contact details, addresses, social profiles, booking and review links, legal
+ * entity — lives in `src/config/site.ts` and is referenced from here, so it can
+ * be changed in one place.
+ *
+ * Image paths point at the downloaded assets in
+ * public/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/.
  */
 
 import type {
@@ -22,14 +27,15 @@ import type {
   SignupPopupData,
   TestimonialsData,
 } from "@/types/upkeepmedspa";
+import { site } from "@/config/site";
 
 const A = "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2";
 const img = (file: string) => `${A}/images/${file}`;
 
-export const BOOKING_URL = "https://www.joinblvd.com/b/upkeep-medspa/widget#/locations";
+export const BOOKING_URL = site.bookingUrl;
 
 export const nav: NavData = {
-  logo: { src: img("logo.png"), alt: "UPKEEP", width: 509, height: 92 },
+  logo: { ...site.logo, src: site.logo.src || img("logo.png") },
   items: [
     { label: "Home", href: "/", active: true },
     {
@@ -177,47 +183,52 @@ export const services: ServicesData = {
 export const testimonials: TestimonialsData = {
   eyebrow: "Real Clients, Real Words",
   heading: "What Our Clients Say",
+  /*
+   * Placeholder reviews. Six entries of roughly the original length so the
+   * carousel panel and dot row keep their measured proportions — replace with
+   * real, consented client quotes.
+   */
   items: [
     {
       stars: "★★★★★",
       quote:
-        "I have come to see Naz for a few years now and adore her work so much I've sent quite a handful of friends in as well. Upkeep has many artists under their roof(s) with different aesthetics. Their facials, hair removal etc are all awesome too. I've done microneedling RF with them several times. I fly in to come to upkeep. I live in Miami. That says a lot.",
-      name: "— Jessie K. · Greenwich Village",
+        "Placeholder review one. Replace this with a real client quote of about this length so the carousel panel keeps its current proportions and the dot row does not shift.",
+      name: "— Client One · Location A",
     },
     {
       stars: "★★★★★",
       quote:
-        "I had a wonderful visit to Upkeep clinic in Brooklyn today. Injector Collin is incredibly knowledgeable, exceptionally pleasant, professional, and helpful. I have a low pain tolerance — we did Botox and lip fillers today and I did not feel any pain or discomfort. I highly recommend Collin and the entire team. I'm definitely going back.",
-      name: "— Henga B. · Brooklyn",
+        "Placeholder review two. Replace this with a real client quote of about this length so the carousel panel keeps its current proportions and the dot row does not shift.",
+      name: "— Client Two · Location B",
     },
     {
       stars: "★★★★★",
       quote:
-        "Best quick lip and Botox I've ever received from Lana. I've moved around over the years to various metropolitan cities (Los Angeles, Chicago, Philadelphia). My experience at Upkeep was by far the best. The office was pleasant, clean and classy. So happy I found my place here.",
-      name: "— Michele S. · Dallas · Knox Henderson",
+        "Placeholder review three. Replace this with a real client quote of about this length so the carousel panel keeps its current proportions and the dot row does not shift.",
+      name: "— Client Three · Location C",
     },
     {
       stars: "★★★★★",
       quote:
-        "Nazeli made my dreams come true. She was thorough, kind, and made me feel at ease with the entire process. I had never done lip filler before and she answered all my silly questions and made me feel fantastic.",
-      name: "— Chael M. · Greenwich Village",
+        "Placeholder review four. Replace this with a real client quote of about this length so the carousel panel keeps its current proportions and the dot row does not shift.",
+      name: "— Client Four · Location D",
     },
     {
       stars: "★★★★★",
       quote:
-        "Izzy is my injector and she is perfect. She is so reassuring if I'm trying something new and she explains everything you need to know. I did want to do jawline contouring but we decided to do chin and cheeks instead and the results came out great.",
-      name: "— Sarah R. · Addison",
+        "Placeholder review five. Replace this with a real client quote of about this length so the carousel panel keeps its current proportions and the dot row does not shift.",
+      name: "— Client Five · Location E",
     },
     {
       stars: "★★★★★",
       quote:
-        "I have done RF microneedling and Botox at Upkeep and highly recommend. RF microneedling was with Aleigha and she was amazing. Then Botox was with Anna and she did a great job too. They make you feel comfortable and make sure you have all of your questions answered.",
-      name: "— Alison T. · Addison",
+        "Placeholder review six. Replace this with a real client quote of about this length so the carousel panel keeps its current proportions and the dot row does not shift.",
+      name: "— Client Six · Location F",
     },
   ],
   note: {
     before: "Verified reviews from",
-    link: { label: "Yelp", href: "https://www.yelp.com/biz/upkeep-new-york-2" },
+    link: { label: site.review.label, href: site.review.href },
     // non-breaking space, middot, non-breaking space — as rendered by the source
     after: " ·  Reviewer names as publicly listed",
   },
@@ -227,13 +238,13 @@ export const locations: LocationsData = {
   eyebrow: "Find Your Nearest Studio",
   heading: "7 Locations Across NYC & Dallas",
   cards: [
-    { name: "Upper East Side", address: "330 East 76th St, New York", href: "/locations#ues", image: { src: img("loc-ues.jpg"), alt: "Upper East Side", width: 1200, height: 520 } },
-    { name: "Greenwich Village", address: "33 Bedford St, New York", href: "/locations#gv", image: { src: img("loc-gv.jpg"), alt: "Greenwich Village", width: 1200, height: 520 } },
-    { name: "Brooklyn", address: "480 5th Ave, Brooklyn", href: "/locations#bk", image: { src: img("loc-brooklyn.jpg"), alt: "Brooklyn", width: 1200, height: 520 } },
-    { name: "Chelsea", address: "224 W 18th St, New York", href: "/locations#ch", image: { src: img("loc-chelsea.jpg"), alt: "Chelsea", width: 1080, height: 1399 } },
-    { name: "Long Island", address: "39 Great Neck Rd, Great Neck", href: "/locations#li", image: { src: img("loc-li.jpg"), alt: "Long Island", width: 1178, height: 659 } },
-    { name: "Dallas", address: "5207 Bonita Ave, Dallas", href: "/locations#dal", image: { src: img("loc-dallas.jpg"), alt: "Dallas", width: 1200, height: 520 } },
-    { name: "Addison", address: "5100 Belt Line Rd, Addison", href: "/locations#add", image: { src: img("loc-addison.jpg"), alt: "Addison", width: 1200, height: 520 } },
+    { name: "Upper East Side", address: "100 Example Ave, New York", href: "/locations#ues", image: { src: img("loc-ues.jpg"), alt: "Upper East Side", width: 1200, height: 520 } },
+    { name: "Greenwich Village", address: "100 Sample St, New York", href: "/locations#gv", image: { src: img("loc-gv.jpg"), alt: "Greenwich Village", width: 1200, height: 520 } },
+    { name: "Brooklyn", address: "100 Demo Ave, Brooklyn", href: "/locations#bk", image: { src: img("loc-brooklyn.jpg"), alt: "Brooklyn", width: 1200, height: 520 } },
+    { name: "Chelsea", address: "100 Place St, New York", href: "/locations#ch", image: { src: img("loc-chelsea.jpg"), alt: "Chelsea", width: 1080, height: 1399 } },
+    { name: "Long Island", address: "100 Road Lane, Great Neck", href: "/locations#li", image: { src: img("loc-li.jpg"), alt: "Long Island", width: 1178, height: 659 } },
+    { name: "Dallas", address: "100 Bonita Ave, Dallas", href: "/locations#dal", image: { src: img("loc-dallas.jpg"), alt: "Dallas", width: 1200, height: 520 } },
+    { name: "Addison", address: "100 Belt Line Rd, Addison", href: "/locations#add", image: { src: img("loc-addison.jpg"), alt: "Addison", width: 1200, height: 520 } },
   ],
   cta: { label: "View All Locations", href: "/locations" },
 };
@@ -245,7 +256,7 @@ export const press: PressData = {
 
 export const journal: JournalData = {
   eyebrow: "Expert Insights",
-  heading: "How to UPKEEP",
+  heading: `How to ${site.name.replace(/\. /g, " ").toUpperCase()}`,
   cta: { label: "Read All Articles", href: "/blog" },
   cards: [
     {
@@ -284,13 +295,9 @@ export const bookingCta: BookingCtaData = {
 };
 
 export const footer: FooterData = {
-  logo: { src: img("logo.png"), alt: "UPKEEP", width: 509, height: 92 },
-  tagline: "Not your mother's med spa. Making aesthetics accessible since 2019.",
-  socials: [
-    { label: "Instagram", href: "https://www.instagram.com/upkeepmedspa", icon: "instagram" },
-    { label: "TikTok", href: "https://www.tiktok.com/@upkeepmedspa", icon: "tiktok" },
-    { label: "Facebook", href: "https://www.facebook.com/Upkeepmedspa/", icon: "facebook" },
-  ],
+  logo: { ...site.logo, src: site.logo.src || img("logo.png") },
+  tagline: site.tagline,
+  socials: [...site.socials],
   columns: [
     {
       heading: "Navigate",
@@ -321,24 +328,23 @@ export const footer: FooterData = {
     },
   ],
   contact: {
-    phone: "(833) 875-3377",
-    phoneHref: "tel:+18338753377",
-    email: "info@upkeepmedspa.com",
-    emailHref: "mailto:info@upkeepmedspa.com",
-    note: "7 locations across NYC & Dallas",
+    phone: site.contact.phone,
+    phoneHref: site.contact.phoneHref,
+    email: site.contact.email,
+    emailHref: site.contact.emailHref,
+    note: site.contact.locationsSummary,
     cta: { label: "Book Now", href: BOOKING_URL },
   },
   bottom: {
-    copyright: "© 2026 Upkeep Med Spa. All rights reserved. Women-owned & operated.",
+    copyright: site.legal.copyright,
     links: [
       { label: "Privacy Policy", href: "/privacy-policy" },
       { label: "Cancellation Policy", href: "/cancellation-policy" },
       { label: "Safety & Prescribing", href: "/safety-prescribing" },
-      { label: "Accessibility", href: "/accessibility" },
+      { label: "Accessibility", href: site.routes.accessibility },
     ],
   },
-  accessibilityNotice:
-    "Accessibility: If you are visually impaired or have any other impairment and you wish to discuss potential accommodations related to using this website, please contact our office at (833) 875-3377 or info@upkeepmedspa.com. Read our full Accessibility Statement.",
+  accessibilityNotice: site.legal.accessibility,
 };
 
 export const consentBanner: ConsentBannerData = {
@@ -348,7 +354,7 @@ export const consentBanner: ConsentBannerData = {
   after: ".",
   declineLabel: "Decline",
   acceptLabel: "Allow marketing cookies",
-  storageKey: "upkeep-consent-v1",
+  storageKey: site.storageKeys.consent,
 };
 
 export const signupPopup: SignupPopupData = {
@@ -368,6 +374,6 @@ export const signupPopup: SignupPopupData = {
     lede: "Thanks for joining the list. Keep an eye on your inbox.",
     closeLabel: "Close",
   },
-  storageKey: "upkeep_signup_v1",
+  storageKey: site.storageKeys.signup,
   autoOpenDelayMs: 12000,
 };

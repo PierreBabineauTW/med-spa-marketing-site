@@ -21,10 +21,11 @@
 import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from "react";
 
 import { AccessibilityIcon } from "@/components/sites/upkeepmedspa-com-9d00bd1f/shared/icons";
+import { site } from "@/config/site";
 import { footer } from "@/lib/upkeepmedspa-data";
 
-const LARGE_TEXT_STORAGE_KEY = "upkeep-a11y-large-text";
-const REDUCE_MOTION_STORAGE_KEY = "upkeep-a11y-reduce-motion";
+const LARGE_TEXT_STORAGE_KEY = site.storageKeys.largeText;
+const REDUCE_MOTION_STORAGE_KEY = site.storageKeys.reduceMotion;
 
 const LARGE_TEXT_CLASS = "a11y-large-text";
 const REDUCE_MOTION_CLASS = "a11y-reduce-motion";
@@ -195,7 +196,7 @@ export function AccessibilityMenu() {
           </button>
         </div>
         <div className="a11y-menu__divider" role="presentation" />
-        <a className="a11y-menu__link" href="/accessibility">
+        <a className="a11y-menu__link" href={site.routes.accessibility}>
           Read full Accessibility Statement
         </a>
         <div className="a11y-menu__contact">
