@@ -1,0 +1,481 @@
+{
+  "images": [
+    {
+      "src": "https://upkeepmedspa.com/assets/logo.png",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "UPKEEP",
+      "w": 509,
+      "h": 92,
+      "loading": null,
+      "parentClass": "nav__logo",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "fill"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/hero-home.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Woman surrounded by pink peonies and botanical florals — editorial beauty photography",
+      "w": 1193,
+      "h": 1080,
+      "loading": null,
+      "parentClass": "hero__bg",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/section-results.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Close-up of radiant skin after facial treatment",
+      "w": 2752,
+      "h": 1536,
+      "loading": "lazy",
+      "parentClass": "",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/svc-neurotoxins.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Neurotoxin treatment",
+      "w": 1080,
+      "h": 1350,
+      "loading": "lazy",
+      "parentClass": "svc-tile__img",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/svc-lips.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Lip enhancement treatment",
+      "w": 2752,
+      "h": 1536,
+      "loading": "lazy",
+      "parentClass": "svc-tile__img",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/svc-fillers.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Dermal filler treatment",
+      "w": 1080,
+      "h": 1619,
+      "loading": "lazy",
+      "parentClass": "svc-tile__img",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/svc-facials.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Facial treatment",
+      "w": 1080,
+      "h": 1610,
+      "loading": "lazy",
+      "parentClass": "svc-tile__img",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/svc-regenerative.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Regenerative treatment",
+      "w": 1080,
+      "h": 1610,
+      "loading": "lazy",
+      "parentClass": "svc-tile__img",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/svc-specialty.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Specialty injectable treatment",
+      "w": 1080,
+      "h": 1610,
+      "loading": "lazy",
+      "parentClass": "svc-tile__img",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/svc-laser.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Laser skin treatment",
+      "w": 2752,
+      "h": 1536,
+      "loading": "lazy",
+      "parentClass": "svc-tile__img",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/svc-body.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Body contouring treatment",
+      "w": 1080,
+      "h": 1610,
+      "loading": "lazy",
+      "parentClass": "svc-tile__img",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/locations/ues-wix.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Upper East Side",
+      "w": 1200,
+      "h": 520,
+      "loading": "lazy",
+      "parentClass": "location-card__bg",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/locations/gv-wix.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Greenwich Village",
+      "w": 1200,
+      "h": 520,
+      "loading": "lazy",
+      "parentClass": "location-card__bg",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/locations/brooklyn-wix.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Brooklyn",
+      "w": 1200,
+      "h": 520,
+      "loading": "lazy",
+      "parentClass": "location-card__bg",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/locations/chelsea-wix.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Chelsea",
+      "w": 1080,
+      "h": 1399,
+      "loading": "lazy",
+      "parentClass": "location-card__bg",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/loc-li.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Long Island",
+      "w": 1178,
+      "h": 659,
+      "loading": "lazy",
+      "parentClass": "location-card__bg",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/locations/dallas-wix.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Dallas",
+      "w": 1200,
+      "h": 520,
+      "loading": "lazy",
+      "parentClass": "location-card__bg",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/locations/north-dallas-wix.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Addison",
+      "w": 1200,
+      "h": 520,
+      "loading": "lazy",
+      "parentClass": "location-card__bg",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/5dfbc92ebcc4646c5b1d7497/1773948201904-9HCFCD5K0Y454UXB2HKA/DSC_2463.jpg?format=500w",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "The Nefertiti Lift",
+      "w": 500,
+      "h": 649,
+      "loading": "lazy",
+      "parentClass": "overflow-hidden",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/5dfbc92ebcc4646c5b1d7497/1773777867446-EYVAK1IW8JGYVO49CQQI/The+Vault+Stock-10763.jpg?format=500w",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Under Eye Filler",
+      "w": 500,
+      "h": 745,
+      "loading": "lazy",
+      "parentClass": "overflow-hidden",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://images.squarespace-cdn.com/content/v1/5dfbc92ebcc4646c5b1d7497/1760466670913-0H38UCIW7S34ZZZC9ACH/e901665b-c1d2-493e-8b56-ef3f97702369.jpg?format=500w",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Microneedling vs Laser",
+      "w": 500,
+      "h": 750,
+      "loading": "lazy",
+      "parentClass": "overflow-hidden",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/hero-home.jpg",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "Floral beauty editorial",
+      "w": 1193,
+      "h": 1080,
+      "loading": "lazy",
+      "parentClass": "booking-cta__bg",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "cover"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/logo.png",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "UPKEEP",
+      "w": 509,
+      "h": 92,
+      "loading": null,
+      "parentClass": "footer__brand-logo",
+      "siblingImgs": 1,
+      "pos": "static",
+      "objectFit": "fill"
+    },
+    {
+      "src": "https://upkeepmedspa.com/assets/events/flash-sale-40-off-sept2026.png",
+      "dataSrc": null,
+      "srcset": null,
+      "alt": "",
+      "w": 900,
+      "h": 1600,
+      "loading": null,
+      "parentClass": "upk-flash-media",
+      "siblingImgs": 1,
+      "pos": "absolute",
+      "objectFit": "contain"
+    }
+  ],
+  "videos": [],
+  "backgrounds": [
+    {
+      "raw": "linear-gradient(rgba(10, 10, 10, 0.4) 0%, rgba(10, 10, 10, 0.15) 40%, rgba(10, 10, 10, 0.5) 80%, rgba(10, 10, 10, 0.85) 100%)",
+      "el": "div.hero__overlay"
+    },
+    {
+      "raw": "linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(10, 10, 10, 0.9) 100%)",
+      "el": "div.location-card__overlay"
+    },
+    {
+      "raw": "linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(10, 10, 10, 0.9) 100%)",
+      "el": "div.location-card__overlay"
+    },
+    {
+      "raw": "linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(10, 10, 10, 0.9) 100%)",
+      "el": "div.location-card__overlay"
+    },
+    {
+      "raw": "linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(10, 10, 10, 0.9) 100%)",
+      "el": "div.location-card__overlay"
+    },
+    {
+      "raw": "linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(10, 10, 10, 0.9) 100%)",
+      "el": "div.location-card__overlay"
+    },
+    {
+      "raw": "linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(10, 10, 10, 0.9) 100%)",
+      "el": "div.location-card__overlay"
+    },
+    {
+      "raw": "linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(10, 10, 10, 0.9) 100%)",
+      "el": "div.location-card__overlay"
+    },
+    {
+      "raw": "linear-gradient(45deg, rgba(0, 0, 0, 0) 50%, rgba(212, 160, 144, 0.8) 50%), linear-gradient(135deg, rgba(212, 160, 144, 0.8) 50%, rgba(0, 0, 0, 0) 50%)",
+      "el": "select."
+    }
+  ],
+  "svgs": [
+    {
+      "outer": "<svg viewBox=\"0 0 10 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M1 1l4 4 4-4\"></path></svg>",
+      "cls": "",
+      "parentCls": "nav__link nav__dropdown-trigger",
+      "w": 10,
+      "h": 10,
+      "viewBox": "0 0 10 6",
+      "fill": "none"
+    },
+    {
+      "outer": "<svg viewBox=\"0 0 10 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M1 1l4 4 4-4\"></path></svg>",
+      "cls": "",
+      "parentCls": "nav__link nav__dropdown-trigger",
+      "w": 10,
+      "h": 10,
+      "viewBox": "0 0 10 6",
+      "fill": "none"
+    },
+    {
+      "outer": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M3 6h18M3 12h18M3 18h18\"></path></svg>",
+      "cls": "",
+      "parentCls": "nav__hamburger",
+      "w": 0,
+      "h": 0,
+      "viewBox": "0 0 24 24",
+      "fill": "none"
+    },
+    {
+      "outer": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M18 6L6 18M6 6l12 12\"></path></svg>",
+      "cls": "",
+      "parentCls": "mobile-menu__close",
+      "w": 24,
+      "h": 24,
+      "viewBox": "0 0 24 24",
+      "fill": "none"
+    },
+    {
+      "outer": "<svg width=\"16\" height=\"24\" viewBox=\"0 0 16 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"><path d=\"M8 4v16M4 16l4 4 4-4\"></path></svg>",
+      "cls": "",
+      "parentCls": "hero__scroll-hint",
+      "w": 16,
+      "h": 24,
+      "viewBox": "0 0 16 24",
+      "fill": "none"
+    },
+    {
+      "outer": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M6 6l12 12M18 6L6 18\"></path></svg>",
+      "cls": "",
+      "parentCls": "signup-popup__close",
+      "w": 18,
+      "h": 18,
+      "viewBox": "0 0 24 24",
+      "fill": "none"
+    },
+    {
+      "outer": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\"></rect><circle cx=\"12\" cy=\"12\" r=\"5\"></circle><circle cx=\"17.5\" cy=\"6.5\" r=\"1.5\" fill=\"currentColor\" stroke=\"none\"></circle></svg>",
+      "cls": "",
+      "parentCls": "footer__social-link",
+      "w": 18,
+      "h": 18,
+      "viewBox": "0 0 24 24",
+      "fill": "none"
+    },
+    {
+      "outer": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.43V13.3a8.16 8.16 0 004.58 1.4v-3.44a4.85 4.85 0 01-1-.1V6.69h2z\"></path></svg>",
+      "cls": "",
+      "parentCls": "footer__social-link",
+      "w": 18,
+      "h": 18,
+      "viewBox": "0 0 24 24",
+      "fill": "currentColor"
+    },
+    {
+      "outer": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z\"></path></svg>",
+      "cls": "",
+      "parentCls": "footer__social-link",
+      "w": 18,
+      "h": 18,
+      "viewBox": "0 0 24 24",
+      "fill": "currentColor"
+    },
+    {
+      "outer": "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\">          <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"></circle>          <circle cx=\"12\" cy=\"5.4\" r=\"1.6\" fill=\"currentColor\"></circle>          <path d=\"M5.5 8.5 L18.5 8.5\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" fill=\"none\"></path>          <path d=\"M9.5 8.5 L8 18.5\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" fill=\"none\"></path>          <path d=\"M14.5 8.5 L16 18.5\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" fill=\"none\"></path>          <path d=\"M9.2 12 L14.8 12\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" fill=\"none\"></path>        </svg>",
+      "cls": "",
+      "parentCls": "",
+      "w": 28,
+      "h": 28,
+      "viewBox": "0 0 24 24",
+      "fill": null
+    }
+  ],
+  "fontFamilies": [
+    "\"Cormorant Garamond\", Georgia, serif",
+    "Switzer, \"Helvetica Neue\", sans-serif"
+  ],
+  "usedFontFaces": [
+    "Cormorant Garamond 300 italic unloaded",
+    "Cormorant Garamond 300 italic unloaded",
+    "Cormorant Garamond 300 italic unloaded",
+    "Cormorant Garamond 300 italic unloaded",
+    "Cormorant Garamond 300 italic loaded",
+    "Cormorant Garamond 400 italic unloaded",
+    "Cormorant Garamond 400 italic unloaded",
+    "Cormorant Garamond 400 italic unloaded",
+    "Cormorant Garamond 400 italic unloaded",
+    "Cormorant Garamond 400 italic loaded",
+    "Cormorant Garamond 300 normal unloaded",
+    "Cormorant Garamond 300 normal unloaded",
+    "Cormorant Garamond 300 normal unloaded",
+    "Cormorant Garamond 300 normal unloaded",
+    "Cormorant Garamond 300 normal loaded",
+    "Cormorant Garamond 400 normal unloaded",
+    "Cormorant Garamond 400 normal unloaded",
+    "Cormorant Garamond 400 normal unloaded",
+    "Cormorant Garamond 400 normal unloaded",
+    "Cormorant Garamond 400 normal loaded",
+    "Cormorant Garamond 500 normal unloaded",
+    "Cormorant Garamond 500 normal unloaded",
+    "Cormorant Garamond 500 normal unloaded",
+    "Cormorant Garamond 500 normal unloaded",
+    "Cormorant Garamond 500 normal loaded",
+    "Switzer 300 normal loaded",
+    "Switzer 400 normal loaded",
+    "Switzer 500 normal loaded"
+  ]
+}

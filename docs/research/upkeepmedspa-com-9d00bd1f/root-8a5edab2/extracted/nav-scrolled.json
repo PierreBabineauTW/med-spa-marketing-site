@@ -1,0 +1,120 @@
+{
+ "before": {
+  "selector": "nav.nav",
+  "count": 1,
+  "nodes": [
+   {
+    "idx": 0,
+    "tag": "nav",
+    "cls": "nav",
+    "text": "Home Services Neurotoxins Lip Enhancement Dermal Fillers Regenerative Specialty Facials & Skin Laser Body Contouring Gal",
+    "rect": {
+     "w": 1440,
+     "h": 77
+    },
+    "style": {
+     "fontSize": "17px",
+     "fontWeight": "400",
+     "fontFamily": "Switzer, \"Helvetica Neue\", sans-serif",
+     "lineHeight": "27.2px",
+     "color": "rgb(245, 240, 235)",
+     "textAlign": "start",
+     "backgroundColor": "rgba(10, 10, 10, 0.85)",
+     "padding": "16px 0px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px",
+     "width": "1440px",
+     "height": "77px",
+     "display": "block",
+     "flexDirection": "row",
+     "flexWrap": "nowrap",
+     "flex": "0 1 auto",
+     "gridAutoFlow": "row",
+     "border": "",
+     "borderTop": "0px none rgb(245, 240, 235)",
+     "borderRight": "0px none rgb(245, 240, 235)",
+     "borderBottom": "1px solid rgba(255, 255, 255, 0.05)",
+     "borderLeft": "0px none rgb(245, 240, 235)",
+     "borderColor": "rgb(245, 240, 235) rgb(245, 240, 235) rgba(255, 255, 255, 0.05)",
+     "borderWidth": "0px 0px 1px",
+     "outline": "rgb(245, 240, 235) none 3px",
+     "objectFit": "fill",
+     "objectPosition": "50% 50%",
+     "position": "fixed",
+     "bottom": "823px",
+     "zIndex": "100",
+     "opacity": "1",
+     "transformOrigin": "720px 38.5px",
+     "transition": "background 0.35s cubic-bezier(0.16, 1, 0.3, 1), padding 0.35s cubic-bezier(0.16, 1, 0.3, 1)",
+     "transitionDuration": "0.35s, 0.35s",
+     "transitionTimingFunction": "cubic-bezier(0.16, 1, 0.3, 1), cubic-bezier(0.16, 1, 0.3, 1)",
+     "backdropFilter": "blur(20px)",
+     "textOverflow": "clip",
+     "listStyleType": "disc",
+     "verticalAlign": "baseline"
+    }
+   }
+  ]
+ },
+ "after": {
+  "classes": "nav nav--scrolled",
+  "scrollY": 400
+ },
+ "scrolled": {
+  "selector": "nav.nav",
+  "count": 1,
+  "nodes": [
+   {
+    "idx": 0,
+    "tag": "nav",
+    "cls": "nav nav--scrolled",
+    "text": "Home Services Neurotoxins Lip Enhancement Dermal Fillers Regenerative Specialty Facials & Skin Laser Body Contouring Gal",
+    "rect": {
+     "w": 1440,
+     "h": 69
+    },
+    "style": {
+     "fontSize": "17px",
+     "fontWeight": "400",
+     "fontFamily": "Switzer, \"Helvetica Neue\", sans-serif",
+     "lineHeight": "27.2px",
+     "color": "rgb(245, 240, 235)",
+     "textAlign": "start",
+     "backgroundColor": "rgba(10, 10, 10, 0.95)",
+     "padding": "12px 0px",
+     "paddingTop": "12px",
+     "paddingBottom": "12px",
+     "width": "1440px",
+     "height": "69px",
+     "display": "block",
+     "flexDirection": "row",
+     "flexWrap": "nowrap",
+     "flex": "0 1 auto",
+     "gridAutoFlow": "row",
+     "border": "",
+     "borderTop": "0px none rgb(245, 240, 235)",
+     "borderRight": "0px none rgb(245, 240, 235)",
+     "borderBottom": "1px solid rgba(255, 255, 255, 0.05)",
+     "borderLeft": "0px none rgb(245, 240, 235)",
+     "borderColor": "rgb(245, 240, 235) rgb(245, 240, 235) rgba(255, 255, 255, 0.05)",
+     "borderWidth": "0px 0px 1px",
+     "outline": "rgb(245, 240, 235) none 3px",
+     "objectFit": "fill",
+     "objectPosition": "50% 50%",
+     "position": "fixed",
+     "bottom": "831px",
+     "zIndex": "100",
+     "opacity": "1",
+     "transformOrigin": "720px 34.5px",
+     "transition": "background 0.35s cubic-bezier(0.16, 1, 0.3, 1), padding 0.35s cubic-bezier(0.16, 1, 0.3, 1)",
+     "transitionDuration": "0.35s, 0.35s",
+     "transitionTimingFunction": "cubic-bezier(0.16, 1, 0.3, 1), cubic-bezier(0.16, 1, 0.3, 1)",
+     "backdropFilter": "blur(20px)",
+     "textOverflow": "clip",
+     "listStyleType": "disc",
+     "verticalAlign": "baseline"
+    }
+   }
+  ]
+ }
+}

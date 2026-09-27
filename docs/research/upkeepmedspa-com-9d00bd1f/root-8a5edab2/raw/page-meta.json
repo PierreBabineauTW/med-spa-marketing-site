@@ -1,0 +1,110 @@
+{
+  "title": "UPKEEP Med Spa — Not Your Mother's Med Spa | NYC & Dallas",
+  "meta": [
+    {
+      "name": null,
+      "property": null,
+      "content": null
+    },
+    {
+      "name": "viewport",
+      "property": null,
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "property": null,
+      "content": "UPKEEP Med Spa is a women-owned medical spa with 7 locations across NYC and Dallas. Injectables, laser treatments, body contouring, and more. Making aesthetics accessible."
+    },
+    {
+      "name": null,
+      "property": "og:title",
+      "content": "UPKEEP Med Spa — Not Your Mother's Med Spa"
+    },
+    {
+      "name": null,
+      "property": "og:description",
+      "content": "High-quality aesthetic care made accessible. Botox, fillers, laser treatments, body contouring at 7 locations in NYC & Dallas."
+    },
+    {
+      "name": null,
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "name": null,
+      "property": "og:url",
+      "content": "https://www.upkeepmedspa.com"
+    }
+  ],
+  "favicons": [],
+  "links": [
+    {
+      "rel": "preconnect",
+      "href": "https://fonts.googleapis.com/"
+    },
+    {
+      "rel": "preconnect",
+      "href": "https://fonts.gstatic.com/"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://api.fontshare.com/v2/css?f[]=switzer@300,400,500&display=swap"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://upkeepmedspa.com/base.css"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://upkeepmedspa.com/style.css"
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://chimpstatic.com/mcjs-connected/js/users/3f0c7fa74afca8d80976f5483/3e245c1bfec272e527c7ceeac.js",
+      "inline": null
+    },
+    {
+      "src": null,
+      "inline": "\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"MedicalBusiness\",\n    \"name\": \"UPKEEP Med Spa\",\n    \"description\": \"Women-owned medical spa offering injectables, laser treatments, body contouring across NYC and Dallas.\",\n    \"url\": \"https://www.upkeepmedspa.com\",\n    \"telephone\": \"+18338753377\",\n    \"priceRange\": \"$$\",\n    \"foundingDate\": \"2019\",\n    \"sameAs\": [\n      \"https://www.instagram.com/upkeepmedspa\",\n      \"https://www.tiktok.com/@upkeepmedspa\",\n      \"https://www.facebook.com/Upkeepmedspa/\"\n    ]\n  }\n  "
+    },
+    {
+      "src": "https://upkeepmedspa.com/tracking.js",
+      "inline": null
+    },
+    {
+      "src": "https://upkeepmedspa.com/consent-banner.js",
+      "inline": null
+    },
+    {
+      "src": "https://upkeepmedspa.com/rsvp-popup.js",
+      "inline": null
+    },
+    {
+      "src": "https://upkeepmedspa.com/flash-sale-popup.js",
+      "inline": null
+    },
+    {
+      "src": null,
+      "inline": "!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,\"script\",\"https://chimpstatic.com/mcjs-connected/js/users/3f0c7fa74afca8d80976f5483/3e245c1bfec272e527c7ceeac.js\");"
+    },
+    {
+      "src": null,
+      "inline": "\n    const nav = document.querySelector('.nav');\n    window.addEventListener('scroll', () => {\n      if (window.scrollY > 60) { nav.classList.add('nav--scrolled'); }\n      else { nav.classList.remove('nav--scrolled'); }\n    }, { passive: true });\n\n    // Testimonial carousel\n    const dots = document.querySelectorAll('.testimonial-dot');\n    const testimonials = document.querySelectorAll('[data-testimonial]');\n    let currentTestimonial = 0;\n    function showTestimonial(i) {\n      testimonials.forEach(t => t.style.display = 'none');\n      dots.forEach(d => { d.style.background = 'transparent'; });\n      if (testimonials[i]) { testimonials[i].style.display = ''; }\n      if (dots[i]) { dots[i].style.background = 'var(--color-accent)'; }\n      currentTestimonial = i;\n    }\n    dots.forEach(dot => { dot.addEventListener('click', () => showTestimonial(parseInt(dot.dataset.dot))); });\n    if (testimonials.length) { setInterval(() => { showTestimonial((currentTestimonial + 1) % testimonials.length); }, 6000); }\n\n    // ===== Signup popup =====\n    (function() {\n      const popup = document.getElementById('signupPopup');\n      if (!popup) return;\n      const form = popup.querySelector('.signup-popup__form');\n      const formState = popup.querySelector('[data-signup-state=\"form\"]');\n      const successState = popup.querySelector('[data-signup-state=\"success\"]');\n      const STORAGE_KEY = 'upkeep_signup_v1';\n      let lastFocus = null;\n\n      function openPopup() {\n        lastFocus = document.activeElement;\n        popup.classList.add('is-open');\n        popup.setAttribute('aria-hidden', 'false');\n        document.body.style.overflow = 'hidden';\n        setTimeout(() => { const f = popup.querySelector('input[type=\"email\"]'); if (f) f.focus(); }, 250);\n      }\n      function closePopup() {\n        popup.classList.remove('is-open');\n        popup.setAttribute('aria-hidden', 'true');\n        document.body.style.overflow = '';\n        try { localStorage.setItem(STORAGE_KEY, 'dismissed:' + Date.now()); } catch(e) {}\n        if (lastFocus && lastFocus.focus) lastFocus.focus();\n      }\n      popup.querySelectorAll('[data-signup-close]').forEach(el => el.addEventListener('click', closePopup));\n      document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && popup.classList.contains('is-open')) closePopup(); });\n\n      // Show after 12s unless user already engaged\n      let stored = null;\n      try { stored = localStorage.getItem(STORAGE_KEY); } catch(e) {}\n      if (!stored) {\n        setTimeout(openPopup, 12000);\n      }\n\n      // Manual triggers\n      document.querySelectorAll('[data-open-signup]').forEach(el => {\n        el.addEventListener('click', (e) => { e.preventDefault(); openPopup(); });\n      });\n\n      // Form submit\n      // ===== Mailchimp config =====\n      // Using Mailchimp's classic post-json endpoint (JSONP) so we get a real\n      // response (success / already-subscribed / error) with no CORS issues\n      // and no backend.\n      const MC = {\n        // Note: 'post' replaced with 'post-json' for JSONP support\n        endpoint: 'https://upkeepmedspa.us15.list-manage.com/subscribe/post-json?u=3f0c7fa74afca8d80976f5483&id=6bd77be4f1&f_id=00349de1f0',\n        // Hidden honeypot field name (anti-bot) — must be empty on real submits\n        honeypotName: 'b_3f0c7fa74afca8d80976f5483_6bd77be4f1'\n      };\n\n      function mcSubmitJSONP(params, timeoutMs) {\n        return new Promise((resolve, reject) => {\n          const cbName = 'mcCallback_' + Date.now() + '_' + Math.floor(Math.random() * 1e6);\n          const cleanup = () => {\n            try { delete window[cbName]; } catch (_) { window[cbName] = undefined; }\n            if (script.parentNode) script.parentNode.removeChild(script);\n            if (timer) clearTimeout(timer);\n          };\n          window[cbName] = (data) => { cleanup(); resolve(data); };\n          const qs = Object.keys(params)\n            .map(k => encodeURIComponent(k) + '=' + encodeURIComponent(p"
+    },
+    {
+      "src": "https://upkeepmedspa.com/accessibility-menu.js",
+      "inline": null
+    },
+    {
+      "src": "https://upkeepmedspa.com/.netlify/scripts/ar",
+      "inline": null
+    }
+  ],
+  "scrollHeight": 7016
+}

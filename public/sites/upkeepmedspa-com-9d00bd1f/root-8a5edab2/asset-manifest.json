@@ -1,0 +1,319 @@
+{
+  "site": "https://upkeepmedspa.com/",
+  "siteKey": "upkeepmedspa-com-9d00bd1f",
+  "pageKey": "root-8a5edab2",
+  "generatedFor": "public/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2",
+  "images": [
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/logo.png",
+      "source": "https://upkeepmedspa.com/assets/logo.png",
+      "alt": "nav + footer wordmark (509x92)",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/logo.png",
+        "file": "logo.png",
+        "bytes": 28638,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/hero-home.jpg",
+      "source": "https://upkeepmedspa.com/assets/hero-home.jpg",
+      "alt": "hero background (1193x1080), reused by booking CTA",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/hero-home.jpg",
+        "file": "hero-home.jpg",
+        "bytes": 722587,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/section-results.jpg",
+      "source": "https://upkeepmedspa.com/assets/section-results.jpg",
+      "alt": "intro/split section image (2752x1536)",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/section-results.jpg",
+        "file": "section-results.jpg",
+        "bytes": 691669,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/svc-neurotoxins.jpg",
+      "source": "https://upkeepmedspa.com/assets/svc-neurotoxins.jpg",
+      "alt": "service tile 1 (1080x1350)",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/svc-neurotoxins.jpg",
+        "file": "svc-neurotoxins.jpg",
+        "bytes": 719795,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/svc-lips.jpg",
+      "source": "https://upkeepmedspa.com/assets/svc-lips.jpg",
+      "alt": "service tile 2 (2752x1536)",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/svc-lips.jpg",
+        "file": "svc-lips.jpg",
+        "bytes": 916469,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/svc-fillers.jpg",
+      "source": "https://upkeepmedspa.com/assets/svc-fillers.jpg",
+      "alt": "service tile 3 (1080x1619)",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/svc-fillers.jpg",
+        "file": "svc-fillers.jpg",
+        "bytes": 733794,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/svc-facials.jpg",
+      "source": "https://upkeepmedspa.com/assets/svc-facials.jpg",
+      "alt": "service tile 4 (1080x1610)",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/svc-facials.jpg",
+        "file": "svc-facials.jpg",
+        "bytes": 623574,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/svc-regenerative.jpg",
+      "source": "https://upkeepmedspa.com/assets/svc-regenerative.jpg",
+      "alt": "service tile 5 (1080x1610)",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/svc-regenerative.jpg",
+        "file": "svc-regenerative.jpg",
+        "bytes": 755429,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/svc-specialty.jpg",
+      "source": "https://upkeepmedspa.com/assets/svc-specialty.jpg",
+      "alt": "service tile 6 (1080x1610)",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/svc-specialty.jpg",
+        "file": "svc-specialty.jpg",
+        "bytes": 732807,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/svc-laser.jpg",
+      "source": "https://upkeepmedspa.com/assets/svc-laser.jpg",
+      "alt": "service tile 7 (2752x1536)",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/svc-laser.jpg",
+        "file": "svc-laser.jpg",
+        "bytes": 922002,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/svc-body.jpg",
+      "source": "https://upkeepmedspa.com/assets/svc-body.jpg",
+      "alt": "service tile 8 (1080x1610)",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/svc-body.jpg",
+        "file": "svc-body.jpg",
+        "bytes": 754850,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/loc-ues.jpg",
+      "source": "https://upkeepmedspa.com/assets/locations/ues-wix.jpg",
+      "alt": "location: Upper East Side",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/locations/ues-wix.jpg",
+        "file": "loc-ues.jpg",
+        "bytes": 143519,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/loc-gv.jpg",
+      "source": "https://upkeepmedspa.com/assets/locations/gv-wix.jpg",
+      "alt": "location: Greenwich Village",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/locations/gv-wix.jpg",
+        "file": "loc-gv.jpg",
+        "bytes": 103681,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/loc-brooklyn.jpg",
+      "source": "https://upkeepmedspa.com/assets/locations/brooklyn-wix.jpg",
+      "alt": "location: Brooklyn",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/locations/brooklyn-wix.jpg",
+        "file": "loc-brooklyn.jpg",
+        "bytes": 120318,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/loc-chelsea.jpg",
+      "source": "https://upkeepmedspa.com/assets/locations/chelsea-wix.jpg",
+      "alt": "location: Chelsea",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/locations/chelsea-wix.jpg",
+        "file": "loc-chelsea.jpg",
+        "bytes": 130767,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/loc-li.jpg",
+      "source": "https://upkeepmedspa.com/assets/loc-li.jpg",
+      "alt": "location: Long Island",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/loc-li.jpg",
+        "file": "loc-li.jpg",
+        "bytes": 201915,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/loc-dallas.jpg",
+      "source": "https://upkeepmedspa.com/assets/locations/dallas-wix.jpg",
+      "alt": "location: Dallas",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/locations/dallas-wix.jpg",
+        "file": "loc-dallas.jpg",
+        "bytes": 107532,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/loc-addison.jpg",
+      "source": "https://upkeepmedspa.com/assets/locations/north-dallas-wix.jpg",
+      "alt": "location: Addison",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/locations/north-dallas-wix.jpg",
+        "file": "loc-addison.jpg",
+        "bytes": 138131,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/flash-sale-poster.png",
+      "source": "https://upkeepmedspa.com/assets/events/flash-sale-40-off-sept2026.png",
+      "alt": "flash-sale popup poster (900x1600)",
+      "result": {
+        "url": "https://upkeepmedspa.com/assets/events/flash-sale-40-off-sept2026.png",
+        "file": "flash-sale-poster.png",
+        "bytes": 409761,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/blog-nefertiti-lift.jpg",
+      "source": "https://images.squarespace-cdn.com/content/v1/5dfbc92ebcc4646c5b1d7497/1773948201904-9HCFCD5K0Y454UXB2HKA/DSC_2463.jpg?format=1200w",
+      "alt": "blog card 1 (Nefertiti + DAO)",
+      "result": {
+        "url": "https://images.squarespace-cdn.com/content/v1/5dfbc92ebcc4646c5b1d7497/1773948201904-9HCFCD5K0Y454UXB2HKA/DSC_2463.jpg?format=1200w",
+        "file": "blog-nefertiti-lift.jpg",
+        "bytes": 121608,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/blog-under-eye-filler.jpg",
+      "source": "https://images.squarespace-cdn.com/content/v1/5dfbc92ebcc4646c5b1d7497/1773777867446-EYVAK1IW8JGYVO49CQQI/The+Vault+Stock-10763.jpg?format=1200w",
+      "alt": "blog card 2 (Under Eye Filler)",
+      "result": {
+        "url": "https://images.squarespace-cdn.com/content/v1/5dfbc92ebcc4646c5b1d7497/1773777867446-EYVAK1IW8JGYVO49CQQI/The+Vault+Stock-10763.jpg?format=1200w",
+        "file": "blog-under-eye-filler.jpg",
+        "bytes": 537156,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/images/blog-microneedling-vs-laser.jpg",
+      "source": "https://images.squarespace-cdn.com/content/v1/5dfbc92ebcc4646c5b1d7497/1760466670913-0H38UCIW7S34ZZZC9ACH/e901665b-c1d2-493e-8b56-ef3f97702369.jpg?format=1200w",
+      "alt": "blog card 3 (Microneedling vs Laser)",
+      "result": {
+        "url": "https://images.squarespace-cdn.com/content/v1/5dfbc92ebcc4646c5b1d7497/1760466670913-0H38UCIW7S34ZZZC9ACH/e901665b-c1d2-493e-8b56-ef3f97702369.jpg?format=1200w",
+        "file": "blog-microneedling-vs-laser.jpg",
+        "bytes": 175132,
+        "status": "ok",
+        "note": ""
+      }
+    }
+  ],
+  "fonts": [
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/fonts/Switzer-Light.woff2",
+      "source": "https://cdn.fontshare.com/wf/EW5HJEX6O4L64XUWQA2XU7Q6BZ3B4JA4/ZWUP4SQYHHMMSS5LFHFFBX6DXL7C3DTU/H5EOHLIZH5K7IZK6SGYJI75L4KV6FUO7.woff2",
+      "family": "Switzer",
+      "weight": 300,
+      "style": "normal",
+      "license": "Indian Type Foundry — free for commercial use",
+      "result": {
+        "url": "https://cdn.fontshare.com/wf/EW5HJEX6O4L64XUWQA2XU7Q6BZ3B4JA4/ZWUP4SQYHHMMSS5LFHFFBX6DXL7C3DTU/H5EOHLIZH5K7IZK6SGYJI75L4KV6FUO7.woff2",
+        "file": "Switzer-Light.woff2",
+        "bytes": 17932,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/fonts/Switzer-Regular.woff2",
+      "source": "https://cdn.fontshare.com/wf/BLNB4FAQFNK56DWWNF7PMGTCOTZHOEII/ST3WKSSDMBK2MIQQO3MAVYWLF4FTOLFV/6IN5WOLRCYP4G4MOCOHOMXNON6Q7MDAR.woff2",
+      "family": "Switzer",
+      "weight": 400,
+      "style": "normal",
+      "license": "Indian Type Foundry — free for commercial use",
+      "result": {
+        "url": "https://cdn.fontshare.com/wf/BLNB4FAQFNK56DWWNF7PMGTCOTZHOEII/ST3WKSSDMBK2MIQQO3MAVYWLF4FTOLFV/6IN5WOLRCYP4G4MOCOHOMXNON6Q7MDAR.woff2",
+        "file": "Switzer-Regular.woff2",
+        "bytes": 16728,
+        "status": "ok",
+        "note": ""
+      }
+    },
+    {
+      "localPath": "/sites/upkeepmedspa-com-9d00bd1f/root-8a5edab2/fonts/Switzer-Medium.woff2",
+      "source": "https://cdn.fontshare.com/wf/OYB4CXKJQXKTNSLJMTDQOIVUL2V5EL7S/WYO2P7DQVV5RNXGMCUO2HL4RJP4VFUAS/6XPIMU23OJVRY676OG5YVJMWEHWICATX.woff2",
+      "family": "Switzer",
+      "weight": 500,
+      "style": "normal",
+      "license": "Indian Type Foundry — free for commercial use",
+      "result": {
+        "url": "https://cdn.fontshare.com/wf/OYB4CXKJQXKTNSLJMTDQOIVUL2V5EL7S/WYO2P7DQVV5RNXGMCUO2HL4RJP4VFUAS/6XPIMU23OJVRY676OG5YVJMWEHWICATX.woff2",
+        "file": "Switzer-Medium.woff2",
+        "bytes": 19564,
+        "status": "ok",
+        "note": ""
+      }
+    }
+  ]
+}

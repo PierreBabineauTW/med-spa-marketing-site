@@ -1,0 +1,80 @@
+{
+ "count": 6,
+ "dotCount": 6,
+ "panels": [
+  {
+   "i": 0,
+   "display": "none",
+   "text": "★★★★★ I have come to see Naz for a few years now and adore her work so much I've sent quite a handful of friends in as well. Upkeep has many artists under their roof(s) with different aesthetics. Their facials, hair removal etc are all awesome too. I've done microneedling RF with them several times. I fly in to come to upkeep. I live in Miami. That says a lot. — Jessie K. · Greenwich Village",
+   "innerHTML": "\n            <div class=\"testimonial__stars\" aria-label=\"5 out of 5 stars\" style=\"color:var(--color-accent);letter-spacing:0.15em;\">★★★★★</div>\n            <blockquote class=\"testimonial__quote\">I have come to see Naz for a few years now and adore her work so much I've sent quite a handful of friends in as well. Upkeep has many artists under their roof(s) with different aesthetics. Their facials, hair removal etc are all awesome too. I've done microneedling RF with them several times. I fly in to come to upkeep. I live in Miami. That says a lot.</blockquote>\n            <p class=\"testimonial__name\">— Jessie K. &nbsp;·&nbsp; Greenwich Village</p>\n          "
+  },
+  {
+   "i": 1,
+   "display": "block",
+   "text": "★★★★★ I had a wonderful visit to Upkeep clinic in Brooklyn today. Injector Collin is incredibly knowledgeable, exceptionally pleasant, professional, and helpful. I have a low pain tolerance — we did Botox and lip fillers today and I did not feel any pain or discomfort. I highly recommend Collin and the entire team. I'm definitely going back. — Henga B. · Brooklyn",
+   "innerHTML": "\n            <div class=\"testimonial__stars\" aria-label=\"5 out of 5 stars\" style=\"color:var(--color-accent);letter-spacing:0.15em;\">★★★★★</div>\n            <blockquote class=\"testimonial__quote\">I had a wonderful visit to Upkeep clinic in Brooklyn today. Injector Collin is incredibly knowledgeable, exceptionally pleasant, professional, and helpful. I have a low pain tolerance — we did Botox and lip fillers today and I did not feel any pain or discomfort. I highly recommend Collin and the entire team. I'm definitely going back.</blockquote>\n            <p class=\"testimonial__name\">— Henga B. &nbsp;·&nbsp; Brooklyn</p>\n          "
+  },
+  {
+   "i": 2,
+   "display": "none",
+   "text": "★★★★★ Best quick lip and Botox I've ever received from Lana. I've moved around over the years to various metropolitan cities (Los Angeles, Chicago, Philadelphia). My experience at Upkeep was by far the best. The office was pleasant, clean and classy. So happy I found my place here. — Michele S. · Dallas · Knox Henderson",
+   "innerHTML": "\n            <div class=\"testimonial__stars\" aria-label=\"5 out of 5 stars\" style=\"color:var(--color-accent);letter-spacing:0.15em;\">★★★★★</div>\n            <blockquote class=\"testimonial__quote\">Best quick lip and Botox I've ever received from Lana. I've moved around over the years to various metropolitan cities (Los Angeles, Chicago, Philadelphia). My experience at Upkeep was by far the best. The office was pleasant, clean and classy. So happy I found my place here.</blockquote>\n            <p class=\"testimonial__name\">— Michele S. &nbsp;·&nbsp; Dallas · Knox Henderson</p>\n          "
+  },
+  {
+   "i": 3,
+   "display": "none",
+   "text": "★★★★★ Nazeli made my dreams come true. She was thorough, kind, and made me feel at ease with the entire process. I had never done lip filler before and she answered all my silly questions and made me feel fantastic. — Chael M. · Greenwich Village",
+   "innerHTML": "\n            <div class=\"testimonial__stars\" aria-label=\"5 out of 5 stars\" style=\"color:var(--color-accent);letter-spacing:0.15em;\">★★★★★</div>\n            <blockquote class=\"testimonial__quote\">Nazeli made my dreams come true. She was thorough, kind, and made me feel at ease with the entire process. I had never done lip filler before and she answered all my silly questions and made me feel fantastic.</blockquote>\n            <p class=\"testimonial__name\">— Chael M. &nbsp;·&nbsp; Greenwich Village</p>\n          "
+  },
+  {
+   "i": 4,
+   "display": "none",
+   "text": "★★★★★ Izzy is my injector and she is perfect. She is so reassuring if I'm trying something new and she explains everything you need to know. I did want to do jawline contouring but we decided to do chin and cheeks instead and the results came out great. — Sarah R. · Addison",
+   "innerHTML": "\n            <div class=\"testimonial__stars\" aria-label=\"5 out of 5 stars\" style=\"color:var(--color-accent);letter-spacing:0.15em;\">★★★★★</div>\n            <blockquote class=\"testimonial__quote\">Izzy is my injector and she is perfect. She is so reassuring if I'm trying something new and she explains everything you need to know. I did want to do jawline contouring but we decided to do chin and cheeks instead and the results came out great.</blockquote>\n            <p class=\"testimonial__name\">— Sarah R. &nbsp;·&nbsp; Addison</p>\n          "
+  },
+  {
+   "i": 5,
+   "display": "none",
+   "text": "★★★★★ I have done RF microneedling and Botox at Upkeep and highly recommend. RF microneedling was with Aleigha and she was amazing. Then Botox was with Anna and she did a great job too. They make you feel comfortable and make sure you have all of your questions answered. — Alison T. · Addison",
+   "innerHTML": "\n            <div class=\"testimonial__stars\" aria-label=\"5 out of 5 stars\" style=\"color:var(--color-accent);letter-spacing:0.15em;\">★★★★★</div>\n            <blockquote class=\"testimonial__quote\">I have done RF microneedling and Botox at Upkeep and highly recommend. RF microneedling was with Aleigha and she was amazing. Then Botox was with Anna and she did a great job too. They make you feel comfortable and make sure you have all of your questions answered.</blockquote>\n            <p class=\"testimonial__name\">— Alison T. &nbsp;·&nbsp; Addison</p>\n          "
+  }
+ ],
+ "dots": [
+  {
+   "i": 0,
+   "dataDot": "0",
+   "ariaLabel": "Show testimonial 1",
+   "text": ""
+  },
+  {
+   "i": 1,
+   "dataDot": "1",
+   "ariaLabel": "Show testimonial 2",
+   "text": ""
+  },
+  {
+   "i": 2,
+   "dataDot": "2",
+   "ariaLabel": "Show testimonial 3",
+   "text": ""
+  },
+  {
+   "i": 3,
+   "dataDot": "3",
+   "ariaLabel": "Show testimonial 4",
+   "text": ""
+  },
+  {
+   "i": 4,
+   "dataDot": "4",
+   "ariaLabel": "Show testimonial 5",
+   "text": ""
+  },
+  {
+   "i": 5,
+   "dataDot": "5",
+   "ariaLabel": "Show testimonial 6",
+   "text": ""
+  }
+ ]
+}

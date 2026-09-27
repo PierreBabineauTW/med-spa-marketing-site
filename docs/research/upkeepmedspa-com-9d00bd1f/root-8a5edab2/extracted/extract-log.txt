@@ -1,0 +1,32 @@
+styles-1440.json: 84 probes, errors=20
+  MISS heroEyebrow (.hero__eyebrow)
+  MISS heroLead (.hero__lead, .hero__sub)
+  MISS heroActions (.hero__actions)
+  MISS heroSpecials (.hero__specials, .hero__content a.btn--ghost)
+  MISS lede (.lede, .section__lede)
+  MISS btnOutline (.btn--outline)
+  MISS svcGrid (.svc-grid, #services .services-grid, #services [class*=grid])
+  MISS svcTileBody (.svc-tile__body)
+  MISS svcNote (.svc-note, #services [class*=note])
+  MISS testiRating (.testi-rating, [class*=rating])
+  MISS testiAuthor (.testimonial__author, [data-testimonial] cite)
+  MISS locCardBody (.location-card__body)
+  MISS locCardAddr (.location-card__addr, .location-card address)
+  MISS pressItem (.press-item, .press-row > *)
+  MISS journalHead (main > section:nth-of-type(7) .section-head)
+  MISS blogCardImgWrap (.blog-card__img, .post-card__img)
+  MISS blogCat (.blog-card__cat, .post-card__cat, .card-cat)
+  MISS footerSocial (.footer__social)
+  MISS footerCol (.footer__col)
+  MISS footerColTitle (.footer__col h3, .footer__col-title)
+testimonials: 6 panels, 6 dots
+  [0] ★★★★★ I have come to see Naz for a few years now and adore her work so much I've sent quite a handfu
+  [1] ★★★★★ I had a wonderful visit to Upkeep clinic in Brooklyn today. Injector Collin is incredibly know
+  [2] ★★★★★ Best quick lip and Botox I've ever received from Lana. I've moved around over the years to var
+  [3] ★★★★★ Nazeli made my dreams come true. She was thorough, kind, and made me feel at ease with the ent
+  [4] ★★★★★ Izzy is my injector and she is perfect. She is so reassuring if I'm trying something new and s
+  [5] ★★★★★ I have done RF microneedling and Botox at Upkeep and highly recommend. RF microneedling was wi
+nav scroll: before="undefined" after="nav nav--scrolled" @y=400
+hover states: 3/12 have changes
+text-content.json written
+svgs.json: 10 icons

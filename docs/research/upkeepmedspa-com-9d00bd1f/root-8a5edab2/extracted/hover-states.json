@@ -1,0 +1,76 @@
+{
+ "btnAccent": {
+  "error": "not found",
+  "selector": "nav.nav .btn--accent"
+ },
+ "btnOutline": {
+  "error": "not found",
+  "selector": ".hero__actions .btn--outline"
+ },
+ "btnGhost": {
+  "error": "not found",
+  "selector": ".hero__content .btn--ghost"
+ },
+ "navLink": {
+  "selector": ".nav__links .nav__link",
+  "transition": "color 0.18s cubic-bezier(0.16, 1, 0.3, 1), background 0.18s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.18s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.18s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.18s cubic-bezier(0.16, 1, 0.3, 1), transform 0.18s cubic-bezier(0.16, 1, 0.3, 1)",
+  "diff": {}
+ },
+ "svcTile": {
+  "selector": ".svc-tile",
+  "transition": "color 0.18s cubic-bezier(0.16, 1, 0.3, 1), background 0.18s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.18s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.18s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.18s cubic-bezier(0.16, 1, 0.3, 1), transform 0.18s cubic-bezier(0.16, 1, 0.3, 1)",
+  "diff": {}
+ },
+ "svcTileImg": {
+  "selector": ".svc-tile img",
+  "transition": "transform 0.6s cubic-bezier(0.16, 1, 0.3, 1)",
+  "diff": {
+   "transform": {
+    "from": "none",
+    "to": "matrix(1.03999, 0, 0, 1.03999, 0, 0)"
+   }
+  }
+ },
+ "locCard": {
+  "selector": ".location-card",
+  "transition": "color 0.18s cubic-bezier(0.16, 1, 0.3, 1), background 0.18s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.18s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.18s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.18s cubic-bezier(0.16, 1, 0.3, 1), transform 0.18s cubic-bezier(0.16, 1, 0.3, 1)",
+  "diff": {}
+ },
+ "blogCard": {
+  "selector": ".blog-card",
+  "transition": "border-color 0.18s cubic-bezier(0.16, 1, 0.3, 1)",
+  "diff": {
+   "borderColor": {
+    "from": "rgba(212, 176, 168, 0.15)",
+    "to": "rgba(212, 176, 168, 0.3)"
+   }
+  }
+ },
+ "footerLink": {
+  "error": "not found",
+  "selector": ".footer__col a"
+ },
+ "socialLink": {
+  "selector": ".footer__social-link",
+  "transition": "0.18s cubic-bezier(0.16, 1, 0.3, 1)",
+  "diff": {
+   "color": {
+    "from": "rgba(245, 240, 235, 0.78)",
+    "to": "rgb(212, 160, 144)"
+   },
+   "borderColor": {
+    "from": "rgba(212, 176, 168, 0.15)",
+    "to": "rgb(212, 160, 144)"
+   }
+  }
+ },
+ "pressItem": {
+  "error": "not found",
+  "selector": ".press-row > *"
+ },
+ "testiDot": {
+  "selector": ".testimonial-dot",
+  "transition": "color 0.18s cubic-bezier(0.16, 1, 0.3, 1), background 0.18s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.18s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.18s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.18s cubic-bezier(0.16, 1, 0.3, 1), transform 0.18s cubic-bezier(0.16, 1, 0.3, 1)",
+  "diff": {}
+ }
+}

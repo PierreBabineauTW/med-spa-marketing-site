@@ -1,0 +1,29 @@
+<section .section aria-label="Latest from the blog">
+  <div .container>
+    <div .flex style="justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:var(--space-4);margin-bottom:v…">
+      <div .fade-in>
+        <p .eyebrow "Expert Insights">
+        <h2 .heading-section "How to UPKEEP">
+      <a .btn.btn--small.btn--arrow.fade-in "Read All Articles" href="/blog">
+    <div .grid-3.fade-in>
+      <a .blog-card href="/blog/nefertiti-lift">
+        <div .overflow-hidden>
+          <img .blog-card__image alt="The Nefertiti Lift" src="https://images.squarespace-cdn.com/content/v1/5dfbc92ebcc4646c5b1d7497/1773948201904-9HCFCD5K0Y454UX…">
+        <div .blog-card__content>
+          <p .blog-card__category "Neurotoxin">
+          <h3 .blog-card__title "The Subtle Lift You Didn't Know You Needed: Nefertiti + DAO Neurotoxin">
+          <p .blog-card__excerpt "How the Nefertiti Lift and DAO neurotoxin work together to subtly lift and define the lower face.">
+      <a .blog-card href="/blog/under-eye-filler">
+        <div .overflow-hidden>
+          <img .blog-card__image alt="Under Eye Filler" src="https://images.squarespace-cdn.com/content/v1/5dfbc92ebcc4646c5b1d7497/1773777867446-EYVAK1IW8JGYVO4…">
+        <div .blog-card__content>
+          <p .blog-card__category "Filler">
+          <h3 .blog-card__title "Under Eye Filler: The Secret to Looking Well-Rested">
+          <p .blog-card__excerpt "Under eye filler with Restylane® L helps smooth hollow tear troughs and reduce shadowing for a refre…">
+      <a .blog-card href="/blog/microneedling-vs-laser">
+        <div .overflow-hidden>
+          <img .blog-card__image alt="Microneedling vs Laser" src="https://images.squarespace-cdn.com/content/v1/5dfbc92ebcc4646c5b1d7497/1760466670913-0H38UCIW7S34ZZZ…">
+        <div .blog-card__content>
+          <p .blog-card__category "Skin Health">
+          <h3 .blog-card__title "Microneedling vs. Laser: Which Treatment Is Right for You?">
+          <p .blog-card__excerpt "Both are powerful options for boosting collagen and refining your skin — but they work in very diffe…">

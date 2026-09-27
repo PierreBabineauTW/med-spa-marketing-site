@@ -2,14 +2,20 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
+/* The target's own reset + design system, ported verbatim/filtered from
+   upkeepmedspa.com's base.css and style.css. Imported unlayered so it wins over
+   Tailwind's preflight — the target's reset, body typography and global
+   transitions must not be overridden. */
+@import "../components/sites/upkeepmedspa-com-9d00bd1f/upkeep.css";
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-switzer), "Helvetica Neue", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
-  --font-heading: var(--font-sans);
+  --font-heading: var(--font-cormorant), Georgia, serif;
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -46,75 +52,72 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* UPKEEP brand palette, exposed as Tailwind utilities. These mirror the
+     custom properties the ported stylesheet already defines on :root
+     (--color-accent, --color-gold, …) so `text-rose-gold` and `var(--color-accent)`
+     resolve to the same rose-gold #d4a090. */
+  --color-rose-gold: #d4a090;
+  --color-rose-gold-hover: #e0b5a5;
+  --color-ink: #0a0a0a;
+  --color-ink-soft: #111111;
+  --color-ink-raised: #1a1a1a;
+  --color-ink-high: #222222;
+  --color-cream: #f5f0eb;
+  --color-cream-muted: rgb(245 240 235 / 0.78);
+  --color-cream-faint: rgb(245 240 235 / 0.6);
+  --color-brass: #c9a96e;
+  --color-sage: #8a9a7b;
+  --color-lavender: #b8a9c9;
+
+  /* brand easings, so `ease-brand` resolves to the site's curve */
+  --ease-brand: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  /* shadcn token names remapped to the UPKEEP palette (dark luxe, rose-gold).
+     `--accent` stays a surface colour so shadcn's `bg-accent` keeps its usual
+     meaning; the brand rose-gold is `var(--color-accent)` from the ported sheet. */
+  --background: #0a0a0a;
+  --foreground: #f5f0eb;
+  --card: #111111;
+  --card-foreground: #f5f0eb;
+  --popover: #1a1a1a;
+  --popover-foreground: #f5f0eb;
+  --primary: #d4a090;
+  --primary-foreground: #1a1410;
+  --secondary: #1a1a1a;
+  --secondary-foreground: #f5f0eb;
+  --muted: #1a1a1a;
+  --muted-foreground: rgb(245 240 235 / 0.78);
+  --accent: #1a1a1a;
+  --accent-foreground: #f5f0eb;
+  --destructive: #e5484d;
+  --border: rgb(212 176 168 / 0.15);
+  --input: rgb(212 176 168 / 0.15);
+  --ring: #d4a090;
+  --chart-1: #d4a090;
+  --chart-2: #c9a96e;
+  --chart-3: #8a9a7b;
+  --chart-4: #b8a9c9;
+  --chart-5: #e0b5a5;
+  --radius: 0.25rem;
+  --sidebar: #111111;
+  --sidebar-foreground: #f5f0eb;
+  --sidebar-primary: #d4a090;
+  --sidebar-primary-foreground: #1a1410;
+  --sidebar-accent: #1a1a1a;
+  --sidebar-accent-foreground: #f5f0eb;
+  --sidebar-border: rgb(212 176 168 / 0.15);
+  --sidebar-ring: #d4a090;
 }
 
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+/* next/font variables wired into the two custom properties the ported stylesheet
+   consumes. Placed after the @import so these win over the static family names
+   declared in the ported :root block. */
+:root {
+  --font-display: var(--font-cormorant), Georgia, "Times New Roman", serif;
+  --font-body: var(--font-switzer), "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 @layer base {

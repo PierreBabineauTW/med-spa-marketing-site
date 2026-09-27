@@ -1,0 +1,10 @@
+<section .section aria-label="Signature treatments">
+  <div .container>
+    <div .split.fade-in>
+      <div>
+        <img alt="Close-up of radiant skin after facial treatment" src="./assets/section-results.jpg" style="width:100%;height:auto;object-fit:cover;">
+      <div>
+        <p .eyebrow "Refined Results">
+        <h2 .heading-section.mb-4 "Treatments That Speak for Themselves">
+        <p .body-text.mb-6 "We combine medical expertise with an artist's eye. Every treatment is tailored to enhance your natur…">
+        <a .btn.btn--arrow "View Our Results" href="/gallery">

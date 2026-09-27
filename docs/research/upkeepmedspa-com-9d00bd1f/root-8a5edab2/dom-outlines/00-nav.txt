@@ -1,0 +1,46 @@
+<nav .nav aria-label="Main navigation" role="navigation">
+  <div .nav__inner>
+    <a .nav__logo aria-label="UPKEEP Med Spa home" href="/">
+      <img .nav__logo-img alt="UPKEEP" src="./assets/logo.png">
+    <ul .nav__links role="list">
+      <li>
+        <a .nav__link.nav__link--active "Home" href="/">
+      <li .nav__dropdown>
+        <a .nav__link.nav__dropdown-trigger "Services" href="/services/neurotoxins">
+          <svg .[object.SVGAnimatedString]>
+            <path .[object.SVGAnimatedString]>
+        <div .nav__dropdown-menu role="menu">
+          <a .nav__dropdown-item "Neurotoxins" href="/services/neurotoxins" role="menuitem">
+          <a .nav__dropdown-item "Lip Enhancement" href="/services/lip-enhancement" role="menuitem">
+          <a .nav__dropdown-item "Dermal Fillers" href="/services/dermal-fillers" role="menuitem">
+          <a .nav__dropdown-item "Regenerative" href="/services/regenerative" role="menuitem">
+          <a .nav__dropdown-item "Specialty" href="/services/specialty" role="menuitem">
+          <a .nav__dropdown-item "Facials & Skin" href="/services/facials" role="menuitem">
+          <a .nav__dropdown-item "Laser" href="/services/laser" role="menuitem">
+          <a .nav__dropdown-item "Body Contouring" href="/services/body-contouring" role="menuitem">
+      <li>
+        <a .nav__link "Gallery" href="/gallery">
+      <li>
+        <a .nav__link "About" href="/about">
+      <li>
+        <a .nav__link "Blog" href="/blog">
+      <li .nav__dropdown>
+        <a .nav__link.nav__dropdown-trigger "Locations" href="/locations">
+          <svg .[object.SVGAnimatedString]>
+            <path .[object.SVGAnimatedString]>
+        <div .nav__dropdown-menu role="menu">
+          <a .nav__dropdown-item "Upper East Side" href="/locations#ues" role="menuitem">
+          <a .nav__dropdown-item "Greenwich Village" href="/locations#gv" role="menuitem">
+          <a .nav__dropdown-item "Brooklyn" href="/locations#bk" role="menuitem">
+          <a .nav__dropdown-item "Chelsea" href="/locations#ch" role="menuitem">
+          <a .nav__dropdown-item "Long Island" href="/locations#li" role="menuitem">
+          <a .nav__dropdown-item "Dallas" href="/locations#dal" role="menuitem">
+          <a .nav__dropdown-item "Addison" href="/locations#add" role="menuitem">
+      <li>
+        <a .nav__link "Contact" href="/contact">
+    <div .nav__cta-group>
+      <a .nav__events "Upcoming Events" aria-label="Upcoming Events" href="/events">
+      <a .nav__book.nav__book--desktop "Book Now" href="https://www.joinblvd.com/b/upkeep-medspa/widget#/locations">
+    <button .nav__hamburger aria-label="Open menu">
+      <svg .[object.SVGAnimatedString]>
+        <path .[object.SVGAnimatedString]>

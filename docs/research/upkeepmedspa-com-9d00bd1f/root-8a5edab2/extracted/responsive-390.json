@@ -1,0 +1,14 @@
+{
+ "navLinks": "none visible",
+ "navCtaGroup": "flex visible",
+ "navBookDesktop": "none visible",
+ "navEvents": "none visible",
+ "hamburger": "flex visible",
+ "split": "row",
+ "servicesRow": "171px 171px",
+ "grid4": "173px 173px",
+ "grid3": "358px",
+ "footerGrid": "358px",
+ "container": "1320px",
+ "heroH1": "48px"
+}

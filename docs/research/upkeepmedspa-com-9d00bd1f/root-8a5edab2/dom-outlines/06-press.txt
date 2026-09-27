@@ -1,0 +1,10 @@
+<section .section--tight aria-label="Press mentions" style="padding-block:var(--space-10);">
+  <div .container>
+    <p .eyebrow.text-center.mb-6 "As Seen In" style="color:var(--color-text-faint);">
+    <div .press-bar.fade-in>
+      <span .press-bar__item "Allure">
+      <span .press-bar__item "Vogue" style="font-style:italic;">
+      <span .press-bar__item "The Cut">
+      <span .press-bar__item "Byrdie" style="font-style:italic;">
+      <span .press-bar__item "Well+Good">
+      <span .press-bar__item "Cosmopolitan" style="font-style:italic;">

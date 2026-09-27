@@ -1,0 +1,53 @@
+<section #services .section--tight aria-label="Service categories">
+  <div .container>
+    <div .text-center.mb-8.fade-in>
+      <p .eyebrow "What We Offer">
+      <h2 .heading-section.mb-4 "Our Services">
+    <div .services-row.fade-in>
+      <a .svc-tile href="/services/neurotoxins">
+        <div .svc-tile__img>
+          <img alt="Neurotoxin treatment" src="./assets/svc-neurotoxins.jpg">
+        <h3 .svc-tile__title "Neurotoxins">
+        <p .svc-tile__desc "Botox, Dysport & Xeomin — starting at">
+          <span "$5/unit" style="color:#d4a090">
+      <a .svc-tile href="/services/lip-enhancement">
+        <div .svc-tile__img>
+          <img alt="Lip enhancement treatment" src="./assets/svc-lips.jpg">
+        <h3 .svc-tile__title "Lip Enhancement">
+        <p .svc-tile__desc "Quick Lips from — full syringes from">
+          <span "$275" style="color:#d4a090">
+          <span "$550" style="color:#d4a090">
+      <a .svc-tile href="/services/dermal-fillers">
+        <div .svc-tile__img>
+          <img alt="Dermal filler treatment" src="./assets/svc-fillers.jpg">
+        <h3 .svc-tile__title "Dermal Fillers">
+        <p .svc-tile__desc "Cheeks, jawline, chin & smile lines">
+      <a .svc-tile href="/services/facials">
+        <div .svc-tile__img>
+          <img alt="Facial treatment" src="./assets/svc-facials.jpg">
+        <h3 .svc-tile__title "Facials & Skin">
+        <p .svc-tile__desc "HydraFacial, microneedling & more">
+      <a .svc-tile href="/services/regenerative">
+        <div .svc-tile__img>
+          <img alt="Regenerative treatment" src="./assets/svc-regenerative.jpg">
+        <h3 .svc-tile__title "Regenerative">
+        <p .svc-tile__desc "PRP, Sculptra, Kybella & threads">
+      <a .svc-tile href="/services/specialty">
+        <div .svc-tile__img>
+          <img alt="Specialty injectable treatment" src="./assets/svc-specialty.jpg">
+        <h3 .svc-tile__title "Specialty">
+        <p .svc-tile__desc "Under-eye filler, rhinoplasty & more">
+      <a .svc-tile href="/services/laser">
+        <div .svc-tile__img>
+          <img alt="Laser skin treatment" src="./assets/svc-laser.jpg">
+        <h3 .svc-tile__title "Laser">
+        <p .svc-tile__desc "Resurfacing, tattoo removal & tightening">
+      <a .svc-tile href="/services/body-contouring">
+        <div .svc-tile__img>
+          <img alt="Body contouring treatment" src="./assets/svc-body.jpg">
+        <h3 .svc-tile__title "Body Contouring">
+        <p .svc-tile__desc "Sculpting, cellulite & skin tightening">
+    <div .pricing-disclosure>
+      <p "Prices shown are our cash/debit prices. Credit card payments include a 3% surcharge that does not ex…">
+    <div .text-center.fade-in style="margin-top:var(--space-8);">
+      <a .btn.btn--arrow "View All Services" href="/services/neurotoxins">

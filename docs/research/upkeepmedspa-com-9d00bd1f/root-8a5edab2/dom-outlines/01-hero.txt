@@ -1,0 +1,17 @@
+<section .hero aria-label="Welcome to UPKEEP Med Spa">
+  <div .hero__bg>
+    <img alt="Woman surrounded by pink peonies and botanical florals — editorial beauty photography" src="./assets/hero-home.jpg">
+  <div .hero__overlay>
+  <div .hero__content.fade-in>
+    <p .eyebrow.text-center "Making Aesthetics Accessible">
+    <h1 .heading-hero.text-center "Not Your Mother's Med Spa">
+      <br>
+    <div .hero__ctas>
+      <a .btn "Explore Our Services" href="#services">
+      <a .btn "Schedule Your Visit" href="https://www.joinblvd.com/b/upkeep-medspa/widget#/locations">
+    <div .hero__ctas.hero__ctas--specials>
+      <a .btn.btn--pink "Explore Current Specials" href="/specials">
+  <div .hero__scroll-hint>
+    <span "Scroll">
+    <svg .[object.SVGAnimatedString]>
+      <path .[object.SVGAnimatedString]>

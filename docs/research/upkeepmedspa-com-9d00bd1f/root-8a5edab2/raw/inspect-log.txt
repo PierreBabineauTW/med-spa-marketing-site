@@ -1,0 +1,30 @@
+== goto ==
+all images loaded
+title: UPKEEP Med Spa — Not Your Mother's Med Spa | NYC & Dallas  scrollHeight: 7016
+images: 24  videos: 0  bgLayers: 9  svgs: 10
+fontFamilies: ["\"Cormorant Garamond\", Georgia, serif","Switzer, \"Helvetica Neue\", sans-serif"]
+loaded faces: ["Cormorant Garamond 300 italic unloaded","Cormorant Garamond 300 italic unloaded","Cormorant Garamond 300 italic unloaded","Cormorant Garamond 300 italic unloaded","Cormorant Garamond 300 italic loaded","Cormorant Garamond 400 italic unloaded","Cormorant Garamond 400 italic unloaded","Cormorant Garamond 400 italic unloaded","Cormorant Garamond 400 italic unloaded","Cormorant Garamond 400 italic loaded","Cormorant Garamond 300 normal unloaded","Cormorant Garamond 300 normal unloaded","Cormorant Garamond 300 normal unloaded","Cormorant Garamond 300 normal unloaded","Cormorant Garamond 300 normal loaded","Cormorant Garamond 400 normal unloaded","Cormorant Garamond 400 normal unloaded","Cormorant Garamond 400 normal unloaded","Cormorant Garamond 400 normal unloaded","Cormorant Garamond 400 normal loaded","Cormorant Garamond 500 normal unloaded","Cormorant Garamond 500 normal unloaded","Cormorant Garamond 500 normal unloaded","Cormorant Garamond 500 normal unloaded","Cormorant Garamond 500 normal loaded","Switzer 300 normal loaded","Switzer 400 normal loaded","Switzer 500 normal loaded"]
+section 00-nav: y=0 h=69  html=3.4kb
+section 01-hero: y=0 h=900  html=1.2kb
+section 02-intro: y=900 h=567  html=0.8kb
+section 03-services: y=1467 h=1441  html=4.2kb
+section 04-testimonials: y=2908 h=859  html=6.5kb
+section 05-locations: y=3767 h=1259  html=4.0kb
+section 06-press: y=5027 h=160  html=0.7kb
+section 07-journal: y=5187 h=818  html=2.9kb
+section 08-booking-cta: y=6005 h=413  html=0.8kb
+section 09-footer: y=6418 h=598  html=4.6kb
+body.html: 49.9kb
+master-desktop-1440.png full-page captured
+master-tablet-768.png full-page captured
+master-mobile-390.png full-page captured
+sec-00-nav.png  (y=0 h=125)
+sec-01-hero.png  (y=0 h=948)
+sec-02-intro.png  (y=876 h=616)
+sec-03-services.png  (y=1443 h=1489)
+sec-04-testimonials.png  (y=2884 h=854)
+sec-05-locations.png  (y=3689 h=1308)
+sec-06-press.png  (y=4948 h=208)
+sec-07-journal.png  (y=5108 h=867)
+sec-08-booking-cta.png  (y=5926 h=462)
+sec-09-footer.png  (y=6340 h=647)

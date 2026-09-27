@@ -1,0 +1,59 @@
+<footer .footer role="contentinfo">
+  <div .container>
+    <div .footer__grid>
+      <div>
+        <a .footer__brand-logo href="/">
+          <img .footer__logo-img alt="UPKEEP" src="./assets/logo.png">
+        <p .footer__tagline "Not your mother's med spa. Making aesthetics accessible since 2019.">
+        <div .footer__socials>
+          <a .footer__social-link aria-label="Instagram" href="https://www.instagram.com/upkeepmedspa">
+            <svg .[object.SVGAnimatedString]>
+              <rect .[object.SVGAnimatedString]>
+              <circle .[object.SVGAnimatedString]>
+              <circle .[object.SVGAnimatedString]>
+          <a .footer__social-link aria-label="TikTok" href="https://www.tiktok.com/@upkeepmedspa">
+            <svg .[object.SVGAnimatedString]>
+              <path .[object.SVGAnimatedString]>
+          <a .footer__social-link aria-label="Facebook" href="https://www.facebook.com/Upkeepmedspa/">
+            <svg .[object.SVGAnimatedString]>
+              <path .[object.SVGAnimatedString]>
+      <div>
+        <p .footer__heading "Navigate">
+        <a .footer__link "Home" href="/">
+        <a .footer__link "Services" href="/services/neurotoxins">
+        <a .footer__link "Gallery" href="/gallery">
+        <a .footer__link "Current Specials" href="/specials">
+        <a .footer__link "Upcoming Events" href="/events">
+        <a .footer__link "Financing" href="/financing">
+        <a .footer__link "About Us" href="/about">
+        <a .footer__link "Blog" href="/blog">
+        <a .footer__link "Contact" href="/contact">
+      <div>
+        <p .footer__heading "Services">
+        <a .footer__link "Neurotoxins" href="/services/neurotoxins">
+        <a .footer__link "Lip Enhancement" href="/services/lip-enhancement">
+        <a .footer__link "Dermal Fillers" href="/services/dermal-fillers">
+        <a .footer__link "Facials & Skin" href="/services/facials">
+        <a .footer__link "Regenerative" href="/services/regenerative">
+        <a .footer__link "Specialty Injections" href="/services/specialty">
+        <a .footer__link "Laser Treatments" href="/services/laser">
+        <a .footer__link "Body Contouring" href="/services/body-contouring">
+      <div>
+        <p .footer__heading "Contact">
+        <a .footer__link "(833) 875-3377" href="tel:+18338753377">
+        <a .footer__link "info@upkeepmedspa.com" href="mailto:info@upkeepmedspa.com">
+        <p .footer__link "7 locations across NYC & Dallas" style="margin-top:var(--space-3);color:var(--color-text-faint);">
+        <a .btn.btn--small.btn--accent "Book Now" href="https://www.joinblvd.com/b/upkeep-medspa/widget#/locations" style="margin-top:var(--space-4);">
+    <div .footer__bottom>
+      <p "© 2026 Upkeep Med Spa. All rights reserved. Women-owned & operated.">
+      <div .footer__legal-links>
+        <a "Privacy Policy" href="/privacy-policy">
+        <a "Cancellation Policy" href="/cancellation-policy">
+        <a "Safety & Prescribing" href="/safety-prescribing">
+        <a "Accessibility" href="/accessibility">
+    <div .footer__a11y-notice>
+      <p "If you are visually impaired or have any other impairment and you wish to discuss potential accommod…">
+        <strong "Accessibility:">
+        <a "(833) 875-3377" href="tel:+18338753377">
+        <a "info@upkeepmedspa.com" href="mailto:info@upkeepmedspa.com">
+        <a "Accessibility Statement" href="/accessibility">

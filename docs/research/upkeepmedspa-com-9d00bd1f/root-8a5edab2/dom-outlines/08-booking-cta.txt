@@ -1,0 +1,9 @@
+<section .booking-cta aria-label="Book your visit">
+  <div .booking-cta__bg>
+    <img alt="Floral beauty editorial" src="./assets/hero-home.jpg">
+  <div .booking-cta__content.fade-in>
+    <p .eyebrow.text-center "Your Visit Starts Here">
+    <h2 .heading-section.text-center.mb-4 "Ready to Glow?">
+    <p .body-text.text-center.mx-auto.mb-8 "Expert care, clear pricing, and treatments designed for real results. Book your complimentary consul…">
+    <div .text-center>
+      <a .btn.btn--filled "Book Your Visit" href="https://www.joinblvd.com/b/upkeep-medspa/widget#/locations">

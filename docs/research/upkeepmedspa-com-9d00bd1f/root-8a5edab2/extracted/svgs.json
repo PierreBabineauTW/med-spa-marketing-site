@@ -1,0 +1,92 @@
+[
+ {
+  "i": 0,
+  "parent": "a.nav__link.nav__dropdown-trigger",
+  "parentText": "Services",
+  "viewBox": "0 0 10 6",
+  "w": 10,
+  "h": 10,
+  "outerHTML": "<svg viewBox=\"0 0 10 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M1 1l4 4 4-4\"></path></svg>"
+ },
+ {
+  "i": 1,
+  "parent": "a.nav__link.nav__dropdown-trigger",
+  "parentText": "Locations",
+  "viewBox": "0 0 10 6",
+  "w": 10,
+  "h": 10,
+  "outerHTML": "<svg viewBox=\"0 0 10 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M1 1l4 4 4-4\"></path></svg>"
+ },
+ {
+  "i": 2,
+  "parent": "button.nav__hamburger",
+  "parentText": "",
+  "viewBox": "0 0 24 24",
+  "w": 0,
+  "h": 0,
+  "outerHTML": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M3 6h18M3 12h18M3 18h18\"></path></svg>"
+ },
+ {
+  "i": 3,
+  "parent": "button.mobile-menu__close",
+  "parentText": "",
+  "viewBox": "0 0 24 24",
+  "w": 24,
+  "h": 24,
+  "outerHTML": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M18 6L6 18M6 6l12 12\"></path></svg>"
+ },
+ {
+  "i": 4,
+  "parent": "div.hero__scroll-hint",
+  "parentText": "Scroll",
+  "viewBox": "0 0 16 24",
+  "w": 16,
+  "h": 24,
+  "outerHTML": "<svg width=\"16\" height=\"24\" viewBox=\"0 0 16 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\"><path d=\"M8 4v16M4 16l4 4 4-4\"></path></svg>"
+ },
+ {
+  "i": 5,
+  "parent": "button.signup-popup__close",
+  "parentText": "",
+  "viewBox": "0 0 24 24",
+  "w": 0,
+  "h": 0,
+  "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M6 6l12 12M18 6L6 18\"></path></svg>"
+ },
+ {
+  "i": 6,
+  "parent": "a.footer__social-link",
+  "parentText": "",
+  "viewBox": "0 0 24 24",
+  "w": 18,
+  "h": 18,
+  "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\"></rect><circle cx=\"12\" cy=\"12\" r=\"5\"></circle><circle cx=\"17.5\" cy=\"6.5\" r=\"1.5\" fill=\"currentColor\" stroke=\"none\"></circle></svg>"
+ },
+ {
+  "i": 7,
+  "parent": "a.footer__social-link",
+  "parentText": "",
+  "viewBox": "0 0 24 24",
+  "w": 18,
+  "h": 18,
+  "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.43V13.3a8.16 8.16 0 004.58 1.4v-3.44a4.85 4.85 0 01-1-.1V6.69h2z\"></path></svg>"
+ },
+ {
+  "i": 8,
+  "parent": "a.footer__social-link",
+  "parentText": "",
+  "viewBox": "0 0 24 24",
+  "w": 18,
+  "h": 18,
+  "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z\"></path></svg>"
+ },
+ {
+  "i": 9,
+  "parent": "button.",
+  "parentText": "",
+  "viewBox": "0 0 24 24",
+  "w": 0,
+  "h": 0,
+  "outerHTML": "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\">          <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"></circle>          <circle cx=\"12\" cy=\"5.4\" r=\"1.6\" fill=\"currentColor\"></circle>          <path d=\"M5.5 8.5 L18.5 8.5\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" fill=\"none\"></path>          <path d=\"M9.5 8.5 L8 18.5\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" fill=\"none\"></path>          <path d=\"M14.5 8.5 L16 18.5\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" fill=\"none\"></path>          <path d=\"M9.2 12 L14.8 12\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" fill=\"none\"></path>        </svg>"
+ }
+]

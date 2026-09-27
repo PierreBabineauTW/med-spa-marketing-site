@@ -1,0 +1,57 @@
+<section .section aria-label="Our locations" style="background:var(--color-surface);">
+  <div .container>
+    <div .text-center.mb-8.fade-in>
+      <p .eyebrow "Find Your Nearest Studio">
+      <h2 .heading-section.mb-4 "7 Locations Across NYC & Dallas">
+    <div .grid-4.fade-in style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));">
+      <a .location-card href="/locations#ues" style="text-decoration:none;">
+        <div .location-card__bg>
+          <img alt="Upper East Side" src="./assets/locations/ues-wix.jpg">
+        <div .location-card__overlay>
+        <div .location-card__content>
+          <h3 .location-card__name "Upper East Side">
+          <p .location-card__address "330 East 76th St, New York">
+      <a .location-card href="/locations#gv" style="text-decoration:none;">
+        <div .location-card__bg>
+          <img alt="Greenwich Village" src="./assets/locations/gv-wix.jpg">
+        <div .location-card__overlay>
+        <div .location-card__content>
+          <h3 .location-card__name "Greenwich Village">
+          <p .location-card__address "33 Bedford St, New York">
+      <a .location-card href="/locations#bk" style="text-decoration:none;">
+        <div .location-card__bg>
+          <img alt="Brooklyn" src="./assets/locations/brooklyn-wix.jpg">
+        <div .location-card__overlay>
+        <div .location-card__content>
+          <h3 .location-card__name "Brooklyn">
+          <p .location-card__address "480 5th Ave, Brooklyn">
+      <a .location-card href="/locations#ch" style="text-decoration:none;">
+        <div .location-card__bg>
+          <img alt="Chelsea" src="./assets/locations/chelsea-wix.jpg">
+        <div .location-card__overlay>
+        <div .location-card__content>
+          <h3 .location-card__name "Chelsea">
+          <p .location-card__address "224 W 18th St, New York">
+      <a .location-card href="/locations#li" style="text-decoration:none;">
+        <div .location-card__bg>
+          <img alt="Long Island" src="./assets/loc-li.jpg">
+        <div .location-card__overlay>
+        <div .location-card__content>
+          <h3 .location-card__name "Long Island">
+          <p .location-card__address "39 Great Neck Rd, Great Neck">
+      <a .location-card href="/locations#dal" style="text-decoration:none;">
+        <div .location-card__bg>
+          <img alt="Dallas" src="./assets/locations/dallas-wix.jpg">
+        <div .location-card__overlay>
+        <div .location-card__content>
+          <h3 .location-card__name "Dallas">
+          <p .location-card__address "5207 Bonita Ave, Dallas">
+      <a .location-card href="/locations#add" style="text-decoration:none;">
+        <div .location-card__bg>
+          <img alt="Addison" src="./assets/locations/north-dallas-wix.jpg">
+        <div .location-card__overlay>
+        <div .location-card__content>
+          <h3 .location-card__name "Addison">
+          <p .location-card__address "5100 Belt Line Rd, Addison">
+    <div .text-center.fade-in style="margin-top:var(--space-8);">
+      <a .btn.btn--arrow "View All Locations" href="/locations">

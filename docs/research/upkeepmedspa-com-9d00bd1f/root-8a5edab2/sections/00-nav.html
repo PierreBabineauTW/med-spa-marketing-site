@@ -1,0 +1,47 @@
+<nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a aria-label="UPKEEP Med Spa home" class="nav__logo" href="/"><img src="./assets/logo.png" alt="UPKEEP" class="nav__logo-img" width="509" height="92"></a>
+      <ul class="nav__links" role="list">
+        <li><a class="nav__link nav__link--active" href="/">Home</a></li>
+        <li class="nav__dropdown">
+          <a class="nav__link nav__dropdown-trigger" href="/services/neurotoxins">
+            Services
+            <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"></path></svg>
+          </a>
+          <div class="nav__dropdown-menu" role="menu">
+            <a class="nav__dropdown-item" href="/services/neurotoxins" role="menuitem">Neurotoxins</a>
+            <a class="nav__dropdown-item" href="/services/lip-enhancement" role="menuitem">Lip Enhancement</a>
+            <a class="nav__dropdown-item" href="/services/dermal-fillers" role="menuitem">Dermal Fillers</a>
+            <a class="nav__dropdown-item" href="/services/regenerative" role="menuitem">Regenerative</a>
+            <a class="nav__dropdown-item" href="/services/specialty" role="menuitem">Specialty</a>
+            <a class="nav__dropdown-item" href="/services/facials" role="menuitem">Facials &amp; Skin</a>
+            <a class="nav__dropdown-item" href="/services/laser" role="menuitem">Laser</a>
+            <a class="nav__dropdown-item" href="/services/body-contouring" role="menuitem">Body Contouring</a>
+          </div>
+        </li>
+        <li><a class="nav__link" href="/gallery">Gallery</a></li>
+        <li><a class="nav__link" href="/about">About</a></li>
+        <li><a class="nav__link" href="/blog">Blog</a></li>
+        <li class="nav__dropdown">
+          <a class="nav__link nav__dropdown-trigger" href="/locations">
+            Locations
+            <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"></path></svg>
+          </a>
+          <div class="nav__dropdown-menu" role="menu">
+            <a class="nav__dropdown-item" href="/locations#ues" role="menuitem">Upper East Side</a>
+            <a class="nav__dropdown-item" href="/locations#gv" role="menuitem">Greenwich Village</a>
+            <a class="nav__dropdown-item" href="/locations#bk" role="menuitem">Brooklyn</a>
+            <a class="nav__dropdown-item" href="/locations#ch" role="menuitem">Chelsea</a>
+            <a class="nav__dropdown-item" href="/locations#li" role="menuitem">Long Island</a>
+            <a class="nav__dropdown-item" href="/locations#dal" role="menuitem">Dallas</a>
+            <a class="nav__dropdown-item" href="/locations#add" role="menuitem">Addison</a>
+          </div>
+        </li>
+        <li><a class="nav__link" href="/contact">Contact</a></li>
+      </ul>
+      <div class="nav__cta-group"><a aria-label="Upcoming Events" class="nav__events" href="/events">Upcoming Events</a><a href="https://www.joinblvd.com/b/upkeep-medspa/widget#/locations" class="nav__book nav__book--desktop" target="_blank" rel="noopener noreferrer">Book Now</a></div>
+      <button class="nav__hamburger" aria-label="Open menu" onclick="document.querySelector('.mobile-menu').classList.add('mobile-menu--open')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 6h18M3 12h18M3 18h18"></path></svg>
+      </button>
+    </div>
+  </nav>

@@ -1,0 +1,40 @@
+<section .section aria-label="Client testimonials">
+  <div .container.text-center>
+    <p .eyebrow.fade-in "Real Clients, Real Words">
+    <h2 .heading-section.mb-4.fade-in "What Our Clients Say">
+    <p .fade-in "5.0 average across verified reviews" style="font-size:var(--text-sm);letter-spacing:0.1em;text-transform:uppercase;color:var(--color-text-muted)…">
+      <span "★★★★★" style="color:var(--color-accent);letter-spacing:0.15em;">
+    <div .fade-in style="max-width:760px;margin:0 auto;">
+      <div data-testimonial="0" style="display: none;">
+        <div .testimonial__stars "★★★★★" aria-label="5 out of 5 stars" style="color:var(--color-accent);letter-spacing:0.15em;">
+        <blockquote .testimonial__quote "I have come to see Naz for a few years now and adore her work so much I've sent quite a handful of f…">
+        <p .testimonial__name "— Jessie K. · Greenwich Village">
+      <div data-testimonial="1" style="display: none;">
+        <div .testimonial__stars "★★★★★" aria-label="5 out of 5 stars" style="color:var(--color-accent);letter-spacing:0.15em;">
+        <blockquote .testimonial__quote "I had a wonderful visit to Upkeep clinic in Brooklyn today. Injector Collin is incredibly knowledgea…">
+        <p .testimonial__name "— Henga B. · Brooklyn">
+      <div data-testimonial="2" style="display: none;">
+        <div .testimonial__stars "★★★★★" aria-label="5 out of 5 stars" style="color:var(--color-accent);letter-spacing:0.15em;">
+        <blockquote .testimonial__quote "Best quick lip and Botox I've ever received from Lana. I've moved around over the years to various m…">
+        <p .testimonial__name "— Michele S. · Dallas · Knox Henderson">
+      <div data-testimonial="3" style="display: none;">
+        <div .testimonial__stars "★★★★★" aria-label="5 out of 5 stars" style="color:var(--color-accent);letter-spacing:0.15em;">
+        <blockquote .testimonial__quote "Nazeli made my dreams come true. She was thorough, kind, and made me feel at ease with the entire pr…">
+        <p .testimonial__name "— Chael M. · Greenwich Village">
+      <div data-testimonial="4">
+        <div .testimonial__stars "★★★★★" aria-label="5 out of 5 stars" style="color:var(--color-accent);letter-spacing:0.15em;">
+        <blockquote .testimonial__quote "Izzy is my injector and she is perfect. She is so reassuring if I'm trying something new and she exp…">
+        <p .testimonial__name "— Sarah R. · Addison">
+      <div data-testimonial="5" style="display:none;">
+        <div .testimonial__stars "★★★★★" aria-label="5 out of 5 stars" style="color:var(--color-accent);letter-spacing:0.15em;">
+        <blockquote .testimonial__quote "I have done RF microneedling and Botox at Upkeep and highly recommend. RF microneedling was with Ale…">
+        <p .testimonial__name "— Alison T. · Addison">
+      <div .testimonial-dots style="margin-top:var(--space-8);display:flex;justify-content:center;gap:var(--space-2);flex-wrap:wrap;">
+        <button .testimonial-dot aria-label="Show testimonial 1" data-dot="0" style="width: 10px; height: 10px; border-radius: 50%; border: 1px solid var(--color-accent); background: tr…">
+        <button .testimonial-dot aria-label="Show testimonial 2" data-dot="1" style="width: 10px; height: 10px; border-radius: 50%; border: 1px solid var(--color-accent); background: tr…">
+        <button .testimonial-dot aria-label="Show testimonial 3" data-dot="2" style="width: 10px; height: 10px; border-radius: 50%; border: 1px solid var(--color-accent); background: tr…">
+        <button .testimonial-dot aria-label="Show testimonial 4" data-dot="3" style="width: 10px; height: 10px; border-radius: 50%; border: 1px solid var(--color-accent); background: tr…">
+        <button .testimonial-dot aria-label="Show testimonial 5" data-dot="4" style="width: 10px; height: 10px; border-radius: 50%; border: 1px solid var(--color-accent); background: va…">
+        <button .testimonial-dot aria-label="Show testimonial 6" data-dot="5" style="width:10px;height:10px;border-radius:50%;border:1px solid var(--color-accent);background:transparent…">
+      <p "Verified reviews from · Reviewer names as publicly listed" style="margin-top:var(--space-6);font-size:var(--text-xs);letter-spacing:0.08em;text-transform:uppercase;co…">
+        <a "Yelp" href="https://www.yelp.com/biz/upkeep-new-york-2" style="color:var(--color-text-muted);text-decoration:underline;text-underline-offset:3px;">

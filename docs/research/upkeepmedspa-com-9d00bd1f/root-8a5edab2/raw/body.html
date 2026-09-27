@@ -1,0 +1,682 @@
+<body style="overflow: hidden;">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- ====== NAVIGATION ====== -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a aria-label="UPKEEP Med Spa home" class="nav__logo" href="/"><img src="./assets/logo.png" alt="UPKEEP" class="nav__logo-img" width="509" height="92"></a>
+      <ul class="nav__links" role="list">
+        <li><a class="nav__link nav__link--active" href="/">Home</a></li>
+        <li class="nav__dropdown">
+          <a class="nav__link nav__dropdown-trigger" href="/services/neurotoxins">
+            Services
+            <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"></path></svg>
+          </a>
+          <div class="nav__dropdown-menu" role="menu">
+            <a class="nav__dropdown-item" href="/services/neurotoxins" role="menuitem">Neurotoxins</a>
+            <a class="nav__dropdown-item" href="/services/lip-enhancement" role="menuitem">Lip Enhancement</a>
+            <a class="nav__dropdown-item" href="/services/dermal-fillers" role="menuitem">Dermal Fillers</a>
+            <a class="nav__dropdown-item" href="/services/regenerative" role="menuitem">Regenerative</a>
+            <a class="nav__dropdown-item" href="/services/specialty" role="menuitem">Specialty</a>
+            <a class="nav__dropdown-item" href="/services/facials" role="menuitem">Facials &amp; Skin</a>
+            <a class="nav__dropdown-item" href="/services/laser" role="menuitem">Laser</a>
+            <a class="nav__dropdown-item" href="/services/body-contouring" role="menuitem">Body Contouring</a>
+          </div>
+        </li>
+        <li><a class="nav__link" href="/gallery">Gallery</a></li>
+        <li><a class="nav__link" href="/about">About</a></li>
+        <li><a class="nav__link" href="/blog">Blog</a></li>
+        <li class="nav__dropdown">
+          <a class="nav__link nav__dropdown-trigger" href="/locations">
+            Locations
+            <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"></path></svg>
+          </a>
+          <div class="nav__dropdown-menu" role="menu">
+            <a class="nav__dropdown-item" href="/locations#ues" role="menuitem">Upper East Side</a>
+            <a class="nav__dropdown-item" href="/locations#gv" role="menuitem">Greenwich Village</a>
+            <a class="nav__dropdown-item" href="/locations#bk" role="menuitem">Brooklyn</a>
+            <a class="nav__dropdown-item" href="/locations#ch" role="menuitem">Chelsea</a>
+            <a class="nav__dropdown-item" href="/locations#li" role="menuitem">Long Island</a>
+            <a class="nav__dropdown-item" href="/locations#dal" role="menuitem">Dallas</a>
+            <a class="nav__dropdown-item" href="/locations#add" role="menuitem">Addison</a>
+          </div>
+        </li>
+        <li><a class="nav__link" href="/contact">Contact</a></li>
+      </ul>
+      <div class="nav__cta-group"><a aria-label="Upcoming Events" class="nav__events" href="/events">Upcoming Events</a><a href="https://www.joinblvd.com/b/upkeep-medspa/widget#/locations" class="nav__book nav__book--desktop" target="_blank" rel="noopener noreferrer">Book Now</a></div>
+      <button class="nav__hamburger" aria-label="Open menu" onclick="document.querySelector('.mobile-menu').classList.add('mobile-menu--open')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 6h18M3 12h18M3 18h18"></path></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" role="dialog" aria-label="Navigation menu">
+    <button class="mobile-menu__close" aria-label="Close menu" onclick="this.parentElement.classList.remove('mobile-menu--open')">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 6L6 18M6 6l12 12"></path></svg>
+    </button>
+    <a class="mobile-menu__link" href="/">Home</a>
+    <a class="mobile-menu__link" href="/services/neurotoxins">Neurotoxins</a>
+    <a class="mobile-menu__link" href="/services/lip-enhancement">Lip Enhancement</a>
+    <a class="mobile-menu__link" href="/services/dermal-fillers">Dermal Fillers</a>
+    <a class="mobile-menu__link" href="/services/specialty">Specialty Injections</a>
+    <a class="mobile-menu__link" href="/services/facials">Facials &amp; Skin</a>
+    <a class="mobile-menu__link" href="/services/regenerative">Regenerative</a>
+    <a class="mobile-menu__link" href="/services/laser">Laser Treatments</a>
+    <a class="mobile-menu__link" href="/services/body-contouring">Body Contouring</a>
+    <a class="mobile-menu__link" href="/gallery">Gallery</a>
+    <a class="mobile-menu__link" href="/about">About</a>
+    <a class="mobile-menu__link" href="/blog">Blog</a>
+    <a class="mobile-menu__link" href="/locations">Locations</a>
+    <a class="mobile-menu__link" href="/events">Upcoming Events</a>
+    <a class="mobile-menu__link" href="/contact">Contact</a>
+    <a href="https://www.joinblvd.com/b/upkeep-medspa/widget#/locations" class="btn btn--accent" target="_blank" rel="noopener noreferrer" style="margin-top:var(--space-6)">Book Now</a>
+  </div>
+
+  <!-- ====== MAIN CONTENT ====== -->
+  <main id="main-content">
+
+    <!-- ====== HERO ====== -->
+    <section class="hero" aria-label="Welcome to UPKEEP Med Spa">
+      <div class="hero__bg">
+        <img src="./assets/hero-home.jpg" alt="Woman surrounded by pink peonies and botanical florals — editorial beauty photography" width="1920" height="1080">
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content fade-in">
+        <p class="eyebrow text-center">Making Aesthetics Accessible</p>
+        <h1 class="heading-hero text-center">Not Your Mother's<br>Med Spa</h1>
+        <div class="hero__ctas">
+          <a href="#services" class="btn">Explore Our Services</a>
+          <a href="https://www.joinblvd.com/b/upkeep-medspa/widget#/locations" class="btn" target="_blank" rel="noopener noreferrer">Schedule Your Visit</a>
+        </div>
+        <div class="hero__ctas hero__ctas--specials">
+          <a class="btn btn--pink" href="/specials">Explore Current Specials</a>
+        </div>
+      </div>
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+        <svg width="16" height="24" viewBox="0 0 16 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M8 4v16M4 16l4 4 4-4"></path></svg>
+      </div>
+    </section>
+
+    <!-- ====== SIGNATURE TREATMENTS ====== -->
+    <section class="section" aria-label="Signature treatments">
+      <div class="container">
+        <div class="split fade-in">
+          <div>
+            <img src="./assets/section-results.jpg" alt="Close-up of radiant skin after facial treatment" width="600" height="500" loading="lazy" decoding="async" style="width:100%;height:auto;object-fit:cover;">
+          </div>
+          <div>
+            <p class="eyebrow">Refined Results</p>
+            <h2 class="heading-section mb-4">Treatments That Speak for Themselves</h2>
+            <p class="body-text mb-6">We combine medical expertise with an artist's eye. Every treatment is tailored to enhance your natural features — never overdone, always intentional.</p>
+            <a class="btn btn--arrow" href="/gallery">View Our Results</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SERVICE CATEGORIES ====== -->
+    <section id="services" class="section--tight" aria-label="Service categories">
+      <div class="container">
+        <div class="text-center mb-8 fade-in">
+          <p class="eyebrow">What We Offer</p>
+          <h2 class="heading-section mb-4">Our Services</h2>
+        </div>
+        <div class="services-row fade-in">
+          <a class="svc-tile" href="/services/neurotoxins">
+            <div class="svc-tile__img"><img src="./assets/svc-neurotoxins.jpg" alt="Neurotoxin treatment" width="400" height="500" loading="lazy" decoding="async"></div>
+            <h3 class="svc-tile__title">Neurotoxins</h3>
+            <p class="svc-tile__desc">Botox, Dysport &amp; Xeomin — starting at <span style="color:#d4a090">$5/unit</span></p>
+          </a>
+          <a class="svc-tile" href="/services/lip-enhancement">
+            <div class="svc-tile__img"><img src="./assets/svc-lips.jpg" alt="Lip enhancement treatment" width="400" height="500" loading="lazy" decoding="async"></div>
+            <h3 class="svc-tile__title">Lip Enhancement</h3>
+            <p class="svc-tile__desc">Quick Lips from <span style="color:#d4a090">$275</span> — full syringes from <span style="color:#d4a090">$550</span></p>
+          </a>
+          <a class="svc-tile" href="/services/dermal-fillers">
+            <div class="svc-tile__img"><img src="./assets/svc-fillers.jpg" alt="Dermal filler treatment" width="400" height="500" loading="lazy" decoding="async"></div>
+            <h3 class="svc-tile__title">Dermal Fillers</h3>
+            <p class="svc-tile__desc">Cheeks, jawline, chin &amp; smile lines</p>
+          </a>
+          <a class="svc-tile" href="/services/facials">
+            <div class="svc-tile__img"><img src="./assets/svc-facials.jpg" alt="Facial treatment" width="400" height="500" loading="lazy" decoding="async"></div>
+            <h3 class="svc-tile__title">Facials &amp; Skin</h3>
+            <p class="svc-tile__desc">HydraFacial, microneedling &amp; more</p>
+          </a>
+          <a class="svc-tile" href="/services/regenerative">
+            <div class="svc-tile__img"><img src="./assets/svc-regenerative.jpg" alt="Regenerative treatment" width="400" height="500" loading="lazy" decoding="async"></div>
+            <h3 class="svc-tile__title">Regenerative</h3>
+            <p class="svc-tile__desc">PRP, Sculptra, Kybella &amp; threads</p>
+          </a>
+          <a class="svc-tile" href="/services/specialty">
+            <div class="svc-tile__img"><img src="./assets/svc-specialty.jpg" alt="Specialty injectable treatment" width="400" height="500" loading="lazy" decoding="async"></div>
+            <h3 class="svc-tile__title">Specialty</h3>
+            <p class="svc-tile__desc">Under-eye filler, rhinoplasty &amp; more</p>
+          </a>
+          <a class="svc-tile" href="/services/laser">
+            <div class="svc-tile__img"><img src="./assets/svc-laser.jpg" alt="Laser skin treatment" width="400" height="500" loading="lazy" decoding="async"></div>
+            <h3 class="svc-tile__title">Laser</h3>
+            <p class="svc-tile__desc">Resurfacing, tattoo removal &amp; tightening</p>
+          </a>
+          <a class="svc-tile" href="/services/body-contouring">
+            <div class="svc-tile__img"><img src="./assets/svc-body.jpg" alt="Body contouring treatment" width="400" height="500" loading="lazy" decoding="async"></div>
+            <h3 class="svc-tile__title">Body Contouring</h3>
+            <p class="svc-tile__desc">Sculpting, cellulite &amp; skin tightening</p>
+          </a>
+        </div>
+        <!-- Credit-card surcharge disclosure. Must stay here, directly beneath the
+             pricing above, and must remain plainly visible — never moved into a
+             tooltip, accordion or separate terms page. Rate: 3% — hard-coded in the copy below. -->
+        <div class="pricing-disclosure">
+          <p>Prices shown are our cash/debit prices. Credit card payments include a 3% surcharge that does not exceed our cost of acceptance. Cash, debit card and gift card payments are not surcharged.</p>
+        </div>
+        <div class="text-center fade-in" style="margin-top:var(--space-8);">
+          <a class="btn btn--arrow" href="/services/neurotoxins">View All Services</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== TESTIMONIALS ====== -->
+    <section class="section" aria-label="Client testimonials">
+      <div class="container text-center">
+        <p class="eyebrow fade-in">Real Clients, Real Words</p>
+        <h2 class="heading-section mb-4 fade-in">What Our Clients Say</h2>
+        <p class="fade-in" style="font-size:var(--text-sm);letter-spacing:0.1em;text-transform:uppercase;color:var(--color-text-muted);margin-bottom:var(--space-8);">
+          <span style="color:var(--color-accent);letter-spacing:0.15em;">★★★★★</span>&nbsp;&nbsp;5.0 average across verified reviews
+        </p>
+        <div class="fade-in" style="max-width:760px;margin:0 auto;">
+          <div data-testimonial="0" style="display: none;">
+            <div class="testimonial__stars" aria-label="5 out of 5 stars" style="color:var(--color-accent);letter-spacing:0.15em;">★★★★★</div>
+            <blockquote class="testimonial__quote">I have come to see Naz for a few years now and adore her work so much I've sent quite a handful of friends in as well. Upkeep has many artists under their roof(s) with different aesthetics. Their facials, hair removal etc are all awesome too. I've done microneedling RF with them several times. I fly in to come to upkeep. I live in Miami. That says a lot.</blockquote>
+            <p class="testimonial__name">— Jessie K. &nbsp;·&nbsp; Greenwich Village</p>
+          </div>
+          <div data-testimonial="1" style="display: none;">
+            <div class="testimonial__stars" aria-label="5 out of 5 stars" style="color:var(--color-accent);letter-spacing:0.15em;">★★★★★</div>
+            <blockquote class="testimonial__quote">I had a wonderful visit to Upkeep clinic in Brooklyn today. Injector Collin is incredibly knowledgeable, exceptionally pleasant, professional, and helpful. I have a low pain tolerance — we did Botox and lip fillers today and I did not feel any pain or discomfort. I highly recommend Collin and the entire team. I'm definitely going back.</blockquote>
+            <p class="testimonial__name">— Henga B. &nbsp;·&nbsp; Brooklyn</p>
+          </div>
+          <div data-testimonial="2" style="display: none;">
+            <div class="testimonial__stars" aria-label="5 out of 5 stars" style="color:var(--color-accent);letter-spacing:0.15em;">★★★★★</div>
+            <blockquote class="testimonial__quote">Best quick lip and Botox I've ever received from Lana. I've moved around over the years to various metropolitan cities (Los Angeles, Chicago, Philadelphia). My experience at Upkeep was by far the best. The office was pleasant, clean and classy. So happy I found my place here.</blockquote>
+            <p class="testimonial__name">— Michele S. &nbsp;·&nbsp; Dallas · Knox Henderson</p>
+          </div>
+          <div data-testimonial="3" style="display: none;">
+            <div class="testimonial__stars" aria-label="5 out of 5 stars" style="color:var(--color-accent);letter-spacing:0.15em;">★★★★★</div>
+            <blockquote class="testimonial__quote">Nazeli made my dreams come true. She was thorough, kind, and made me feel at ease with the entire process. I had never done lip filler before and she answered all my silly questions and made me feel fantastic.</blockquote>
+            <p class="testimonial__name">— Chael M. &nbsp;·&nbsp; Greenwich Village</p>
+          </div>
+          <div data-testimonial="4" style="">
+            <div class="testimonial__stars" aria-label="5 out of 5 stars" style="color:var(--color-accent);letter-spacing:0.15em;">★★★★★</div>
+            <blockquote class="testimonial__quote">Izzy is my injector and she is perfect. She is so reassuring if I'm trying something new and she explains everything you need to know. I did want to do jawline contouring but we decided to do chin and cheeks instead and the results came out great.</blockquote>
+            <p class="testimonial__name">— Sarah R. &nbsp;·&nbsp; Addison</p>
+          </div>
+          <div data-testimonial="5" style="display:none;">
+            <div class="testimonial__stars" aria-label="5 out of 5 stars" style="color:var(--color-accent);letter-spacing:0.15em;">★★★★★</div>
+            <blockquote class="testimonial__quote">I have done RF microneedling and Botox at Upkeep and highly recommend. RF microneedling was with Aleigha and she was amazing. Then Botox was with Anna and she did a great job too. They make you feel comfortable and make sure you have all of your questions answered.</blockquote>
+            <p class="testimonial__name">— Alison T. &nbsp;·&nbsp; Addison</p>
+          </div>
+          <div class="testimonial-dots" style="margin-top:var(--space-8);display:flex;justify-content:center;gap:var(--space-2);flex-wrap:wrap;">
+            <button class="testimonial-dot" data-dot="0" aria-label="Show testimonial 1" style="width: 10px; height: 10px; border-radius: 50%; border: 1px solid var(--color-accent); background: transparent; cursor: pointer; padding: 0px;"></button>
+            <button class="testimonial-dot" data-dot="1" aria-label="Show testimonial 2" style="width: 10px; height: 10px; border-radius: 50%; border: 1px solid var(--color-accent); background: transparent; cursor: pointer; padding: 0px;"></button>
+            <button class="testimonial-dot" data-dot="2" aria-label="Show testimonial 3" style="width: 10px; height: 10px; border-radius: 50%; border: 1px solid var(--color-accent); background: transparent; cursor: pointer; padding: 0px;"></button>
+            <button class="testimonial-dot" data-dot="3" aria-label="Show testimonial 4" style="width: 10px; height: 10px; border-radius: 50%; border: 1px solid var(--color-accent); background: transparent; cursor: pointer; padding: 0px;"></button>
+            <button class="testimonial-dot" data-dot="4" aria-label="Show testimonial 5" style="width: 10px; height: 10px; border-radius: 50%; border: 1px solid var(--color-accent); background: var(--color-accent); cursor: pointer; padding: 0px;"></button>
+            <button class="testimonial-dot" data-dot="5" aria-label="Show testimonial 6" style="width:10px;height:10px;border-radius:50%;border:1px solid var(--color-accent);background:transparent;cursor:pointer;padding:0;"></button>
+          </div>
+          <p style="margin-top:var(--space-6);font-size:var(--text-xs);letter-spacing:0.08em;text-transform:uppercase;color:var(--color-text-muted);">
+            Verified reviews from <a href="https://www.yelp.com/biz/upkeep-new-york-2" target="_blank" rel="noopener" style="color:var(--color-text-muted);text-decoration:underline;text-underline-offset:3px;">Yelp</a> &nbsp;·&nbsp; Reviewer names as publicly listed
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== LOCATIONS PREVIEW ====== -->
+    <section class="section" style="background:var(--color-surface);" aria-label="Our locations">
+      <div class="container">
+        <div class="text-center mb-8 fade-in">
+          <p class="eyebrow">Find Your Nearest Studio</p>
+          <h2 class="heading-section mb-4">7 Locations Across NYC &amp; Dallas</h2>
+        </div>
+        <div class="grid-4 fade-in" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));">
+          <a class="location-card" href="/locations#ues" style="text-decoration:none;">
+            <div class="location-card__bg"><img src="./assets/locations/ues-wix.jpg" alt="Upper East Side" width="400" height="533" loading="lazy" decoding="async"></div>
+            <div class="location-card__overlay"></div>
+            <div class="location-card__content"><h3 class="location-card__name">Upper East Side</h3><p class="location-card__address">330 East 76th St, New York</p></div>
+          </a>
+          <a class="location-card" href="/locations#gv" style="text-decoration:none;">
+            <div class="location-card__bg"><img src="./assets/locations/gv-wix.jpg" alt="Greenwich Village" width="400" height="533" loading="lazy" decoding="async"></div>
+            <div class="location-card__overlay"></div>
+            <div class="location-card__content"><h3 class="location-card__name">Greenwich Village</h3><p class="location-card__address">33 Bedford St, New York</p></div>
+          </a>
+          <a class="location-card" href="/locations#bk" style="text-decoration:none;">
+            <div class="location-card__bg"><img src="./assets/locations/brooklyn-wix.jpg" alt="Brooklyn" width="400" height="533" loading="lazy" decoding="async"></div>
+            <div class="location-card__overlay"></div>
+            <div class="location-card__content"><h3 class="location-card__name">Brooklyn</h3><p class="location-card__address">480 5th Ave, Brooklyn</p></div>
+          </a>
+          <a class="location-card" href="/locations#ch" style="text-decoration:none;">
+            <div class="location-card__bg"><img src="./assets/locations/chelsea-wix.jpg" alt="Chelsea" width="400" height="533" loading="lazy" decoding="async"></div>
+            <div class="location-card__overlay"></div>
+            <div class="location-card__content"><h3 class="location-card__name">Chelsea</h3><p class="location-card__address">224 W 18th St, New York</p></div>
+          </a>
+          <a class="location-card" href="/locations#li" style="text-decoration:none;">
+            <div class="location-card__bg"><img src="./assets/loc-li.jpg" alt="Long Island" width="400" height="533" loading="lazy" decoding="async"></div>
+            <div class="location-card__overlay"></div>
+            <div class="location-card__content"><h3 class="location-card__name">Long Island</h3><p class="location-card__address">39 Great Neck Rd, Great Neck</p></div>
+          </a>
+          <a class="location-card" href="/locations#dal" style="text-decoration:none;">
+            <div class="location-card__bg"><img src="./assets/locations/dallas-wix.jpg" alt="Dallas" width="400" height="533" loading="lazy" decoding="async"></div>
+            <div class="location-card__overlay"></div>
+            <div class="location-card__content"><h3 class="location-card__name">Dallas</h3><p class="location-card__address">5207 Bonita Ave, Dallas</p></div>
+          </a>
+          <a class="location-card" href="/locations#add" style="text-decoration:none;">
+            <div class="location-card__bg"><img src="./assets/locations/north-dallas-wix.jpg" alt="Addison" width="400" height="533" loading="lazy" decoding="async"></div>
+            <div class="location-card__overlay"></div>
+            <div class="location-card__content"><h3 class="location-card__name">Addison</h3><p class="location-card__address">5100 Belt Line Rd, Addison</p></div>
+          </a>
+        </div>
+        <div class="text-center fade-in" style="margin-top:var(--space-8);">
+          <a class="btn btn--arrow" href="/locations">View All Locations</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== AS SEEN IN ====== -->
+    <section class="section--tight" style="padding-block:var(--space-10);" aria-label="Press mentions">
+      <div class="container">
+        <p class="eyebrow text-center mb-6" style="color:var(--color-text-faint);">As Seen In</p>
+        <div class="press-bar fade-in">
+          <span class="press-bar__item">Allure</span>
+          <span class="press-bar__item" style="font-style:italic;">Vogue</span>
+          <span class="press-bar__item">The Cut</span>
+          <span class="press-bar__item" style="font-style:italic;">Byrdie</span>
+          <span class="press-bar__item">Well+Good</span>
+          <span class="press-bar__item" style="font-style:italic;">Cosmopolitan</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== BLOG PREVIEW ====== -->
+    <section class="section" aria-label="Latest from the blog">
+      <div class="container">
+        <div class="flex" style="justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:var(--space-4);margin-bottom:var(--space-8);">
+          <div class="fade-in">
+            <p class="eyebrow">Expert Insights</p>
+            <h2 class="heading-section">How to UPKEEP</h2>
+          </div>
+          <a class="btn btn--small btn--arrow fade-in" href="/blog">Read All Articles</a>
+        </div>
+        <div class="grid-3 fade-in">
+          <a class="blog-card" href="/blog/nefertiti-lift">
+            <div class="overflow-hidden">
+              <img class="blog-card__image" src="https://images.squarespace-cdn.com/content/v1/5dfbc92ebcc4646c5b1d7497/1773948201904-9HCFCD5K0Y454UXB2HKA/DSC_2463.jpg?format=500w" alt="The Nefertiti Lift" width="400" height="250" loading="lazy" decoding="async">
+            </div>
+            <div class="blog-card__content">
+              <p class="blog-card__category">Neurotoxin</p>
+              <h3 class="blog-card__title">The Subtle Lift You Didn't Know You Needed: Nefertiti + DAO Neurotoxin</h3>
+              <p class="blog-card__excerpt">How the Nefertiti Lift and DAO neurotoxin work together to subtly lift and define the lower face.</p>
+            </div>
+          </a>
+          <a class="blog-card" href="/blog/under-eye-filler">
+            <div class="overflow-hidden">
+              <img class="blog-card__image" src="https://images.squarespace-cdn.com/content/v1/5dfbc92ebcc4646c5b1d7497/1773777867446-EYVAK1IW8JGYVO49CQQI/The+Vault+Stock-10763.jpg?format=500w" alt="Under Eye Filler" width="400" height="250" loading="lazy" decoding="async">
+            </div>
+            <div class="blog-card__content">
+              <p class="blog-card__category">Filler</p>
+              <h3 class="blog-card__title">Under Eye Filler: The Secret to Looking Well-Rested</h3>
+              <p class="blog-card__excerpt">Under eye filler with Restylane® L helps smooth hollow tear troughs and reduce shadowing for a refreshed appearance.</p>
+            </div>
+          </a>
+          <a class="blog-card" href="/blog/microneedling-vs-laser">
+            <div class="overflow-hidden">
+              <img class="blog-card__image" src="https://images.squarespace-cdn.com/content/v1/5dfbc92ebcc4646c5b1d7497/1760466670913-0H38UCIW7S34ZZZC9ACH/e901665b-c1d2-493e-8b56-ef3f97702369.jpg?format=500w" alt="Microneedling vs Laser" width="400" height="250" loading="lazy" decoding="async">
+            </div>
+            <div class="blog-card__content">
+              <p class="blog-card__category">Skin Health</p>
+              <h3 class="blog-card__title">Microneedling vs. Laser: Which Treatment Is Right for You?</h3>
+              <p class="blog-card__excerpt">Both are powerful options for boosting collagen and refining your skin — but they work in very different ways.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== BOOKING CTA ====== -->
+    <section class="booking-cta" aria-label="Book your visit">
+      <div class="booking-cta__bg">
+        <img src="./assets/hero-home.jpg" alt="Floral beauty editorial" width="1920" height="600" loading="lazy" decoding="async">
+      </div>
+      <div class="booking-cta__content fade-in">
+        <p class="eyebrow text-center">Your Visit Starts Here</p>
+        <h2 class="heading-section text-center mb-4">Ready to Glow?</h2>
+        <p class="body-text text-center mx-auto mb-8">Expert care, clear pricing, and treatments designed for real results. Book your complimentary consultation today.</p>
+        <div class="text-center">
+          <a href="https://www.joinblvd.com/b/upkeep-medspa/widget#/locations" class="btn btn--filled" target="_blank" rel="noopener noreferrer">Book Your Visit</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SIGNUP POPUP ====== -->
+    <div class="signup-popup is-open" id="signupPopup" role="dialog" aria-modal="true" aria-labelledby="signupHeading" aria-hidden="false">
+      <div class="signup-popup__backdrop" data-signup-close=""></div>
+      <div class="signup-popup__card" role="document">
+        <button type="button" class="signup-popup__close" data-signup-close="" aria-label="Close">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+        </button>
+        <div class="signup-popup__inner" data-signup-state="form">
+          <p class="eyebrow signup-popup__eyebrow">Stay In Bloom</p>
+          <h2 id="signupHeading" class="signup-popup__title">Keep Up<br>With Us</h2>
+          <p class="signup-popup__lede">New services, seasonal offers, and a little editorial inspiration — straight to your inbox.</p>
+          <form class="signup-popup__form" name="signup_form" novalidate="">
+            <label class="signup-popup__label" for="signupEmail">
+              <span>Email <span aria-hidden="true" class="signup-popup__req">*</span></span>
+              <input type="email" id="signupEmail" name="email" autocomplete="email" required="" placeholder="you@example.com">
+            </label>
+            <label class="signup-popup__label" for="signupPhone">
+              <span>Phone <span class="signup-popup__optional">(optional)</span></span>
+              <input type="tel" id="signupPhone" name="phone" autocomplete="tel" placeholder="(555) 000-0000">
+            </label>
+            <button type="submit" class="btn btn--filled signup-popup__submit">Sign Me Up</button>
+            <p class="signup-popup__fineprint">By signing up you agree to receive occasional marketing messages. Unsubscribe anytime.</p>
+          </form>
+        </div>
+        <div class="signup-popup__inner signup-popup__inner--success" data-signup-state="success" hidden="">
+          <p class="eyebrow signup-popup__eyebrow">You're In</p>
+          <h2 class="signup-popup__title">See You<br>Soon</h2>
+          <p class="signup-popup__lede">Thanks for joining the list. Keep an eye on your inbox.</p>
+          <button type="button" class="btn" data-signup-close="">Close</button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a class="footer__brand-logo" href="/"><img src="./assets/logo.png" alt="UPKEEP" class="footer__logo-img" width="509" height="92"></a>
+          <p class="footer__tagline">Not your mother's med spa. Making aesthetics accessible since 2019.</p>
+          <div class="footer__socials">
+            <a href="https://www.instagram.com/upkeepmedspa" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="5"></circle><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"></circle></svg>
+            </a>
+            <a href="https://www.tiktok.com/@upkeepmedspa" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.43V13.3a8.16 8.16 0 004.58 1.4v-3.44a4.85 4.85 0 01-1-.1V6.69h2z"></path></svg>
+            </a>
+            <a href="https://www.facebook.com/Upkeepmedspa/" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <p class="footer__heading">Navigate</p>
+          <a class="footer__link" href="/">Home</a>
+          <a class="footer__link" href="/services/neurotoxins">Services</a>
+          <a class="footer__link" href="/gallery">Gallery</a>
+          <a class="footer__link" href="/specials">Current Specials</a>
+          <a class="footer__link" href="/events">Upcoming Events</a>
+          <a class="footer__link" href="/financing">Financing</a>
+          <a class="footer__link" href="/about">About Us</a>
+          <a class="footer__link" href="/blog">Blog</a>
+          <a class="footer__link" href="/contact">Contact</a>
+        </div>
+        <div>
+          <p class="footer__heading">Services</p>
+          <a class="footer__link" href="/services/neurotoxins">Neurotoxins</a>
+          <a class="footer__link" href="/services/lip-enhancement">Lip Enhancement</a>
+          <a class="footer__link" href="/services/dermal-fillers">Dermal Fillers</a>
+          <a class="footer__link" href="/services/facials">Facials &amp; Skin</a>
+          <a class="footer__link" href="/services/regenerative">Regenerative</a>
+          <a class="footer__link" href="/services/specialty">Specialty Injections</a>
+          <a class="footer__link" href="/services/laser">Laser Treatments</a>
+          <a class="footer__link" href="/services/body-contouring">Body Contouring</a>
+        </div>
+        <div>
+          <p class="footer__heading">Contact</p>
+          <a href="tel:+18338753377" class="footer__link">(833) 875-3377</a>
+          <a href="mailto:info@upkeepmedspa.com" class="footer__link">info@upkeepmedspa.com</a>
+          <p class="footer__link" style="margin-top:var(--space-3);color:var(--color-text-faint);">7 locations across NYC &amp; Dallas</p>
+          <a href="https://www.joinblvd.com/b/upkeep-medspa/widget#/locations" class="btn btn--small btn--accent" target="_blank" rel="noopener noreferrer" style="margin-top:var(--space-4);">Book Now</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 Upkeep Med Spa. All rights reserved. Women-owned &amp; operated.</p>
+        <div class="footer__legal-links">
+                    <a href="/privacy-policy">Privacy Policy</a>
+          <a href="/cancellation-policy">Cancellation Policy</a>
+          <a href="/safety-prescribing">Safety &amp; Prescribing</a>
+          <a href="/accessibility">Accessibility</a>
+        </div>
+      </div>
+      <div class="footer__a11y-notice">
+        <p><strong>Accessibility:</strong> If you are visually impaired or have any other impairment and you wish to discuss potential accommodations related to using this website, please contact our office at <a href="tel:+18338753377">(833)&nbsp;875-3377</a> or <a href="mailto:info@upkeepmedspa.com">info@upkeepmedspa.com</a>. Read our full <a href="/accessibility">Accessibility Statement</a>.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script defer="">
+    const nav = document.querySelector('.nav');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 60) { nav.classList.add('nav--scrolled'); }
+      else { nav.classList.remove('nav--scrolled'); }
+    }, { passive: true });
+
+    // Testimonial carousel
+    const dots = document.querySelectorAll('.testimonial-dot');
+    const testimonials = document.querySelectorAll('[data-testimonial]');
+    let currentTestimonial = 0;
+    function showTestimonial(i) {
+      testimonials.forEach(t => t.style.display = 'none');
+      dots.forEach(d => { d.style.background = 'transparent'; });
+      if (testimonials[i]) { testimonials[i].style.display = ''; }
+      if (dots[i]) { dots[i].style.background = 'var(--color-accent)'; }
+      currentTestimonial = i;
+    }
+    dots.forEach(dot => { dot.addEventListener('click', () => showTestimonial(parseInt(dot.dataset.dot))); });
+    if (testimonials.length) { setInterval(() => { showTestimonial((currentTestimonial + 1) % testimonials.length); }, 6000); }
+
+    // ===== Signup popup =====
+    (function() {
+      const popup = document.getElementById('signupPopup');
+      if (!popup) return;
+      const form = popup.querySelector('.signup-popup__form');
+      const formState = popup.querySelector('[data-signup-state="form"]');
+      const successState = popup.querySelector('[data-signup-state="success"]');
+      const STORAGE_KEY = 'upkeep_signup_v1';
+      let lastFocus = null;
+
+      function openPopup() {
+        lastFocus = document.activeElement;
+        popup.classList.add('is-open');
+        popup.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+        setTimeout(() => { const f = popup.querySelector('input[type="email"]'); if (f) f.focus(); }, 250);
+      }
+      function closePopup() {
+        popup.classList.remove('is-open');
+        popup.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+        try { localStorage.setItem(STORAGE_KEY, 'dismissed:' + Date.now()); } catch(e) {}
+        if (lastFocus && lastFocus.focus) lastFocus.focus();
+      }
+      popup.querySelectorAll('[data-signup-close]').forEach(el => el.addEventListener('click', closePopup));
+      document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && popup.classList.contains('is-open')) closePopup(); });
+
+      // Show after 12s unless user already engaged
+      let stored = null;
+      try { stored = localStorage.getItem(STORAGE_KEY); } catch(e) {}
+      if (!stored) {
+        setTimeout(openPopup, 12000);
+      }
+
+      // Manual triggers
+      document.querySelectorAll('[data-open-signup]').forEach(el => {
+        el.addEventListener('click', (e) => { e.preventDefault(); openPopup(); });
+      });
+
+      // Form submit
+      // ===== Mailchimp config =====
+      // Using Mailchimp's classic post-json endpoint (JSONP) so we get a real
+      // response (success / already-subscribed / error) with no CORS issues
+      // and no backend.
+      const MC = {
+        // Note: 'post' replaced with 'post-json' for JSONP support
+        endpoint: 'https://upkeepmedspa.us15.list-manage.com/subscribe/post-json?u=3f0c7fa74afca8d80976f5483&id=6bd77be4f1&f_id=00349de1f0',
+        // Hidden honeypot field name (anti-bot) — must be empty on real submits
+        honeypotName: 'b_3f0c7fa74afca8d80976f5483_6bd77be4f1'
+      };
+
+      function mcSubmitJSONP(params, timeoutMs) {
+        return new Promise((resolve, reject) => {
+          const cbName = 'mcCallback_' + Date.now() + '_' + Math.floor(Math.random() * 1e6);
+          const cleanup = () => {
+            try { delete window[cbName]; } catch (_) { window[cbName] = undefined; }
+            if (script.parentNode) script.parentNode.removeChild(script);
+            if (timer) clearTimeout(timer);
+          };
+          window[cbName] = (data) => { cleanup(); resolve(data); };
+          const qs = Object.keys(params)
+            .map(k => encodeURIComponent(k) + '=' + encodeURIComponent(params[k]))
+            .join('&');
+          const url = MC.endpoint + '&' + qs + '&c=' + cbName;
+          const script = document.createElement('script');
+          script.src = url;
+          script.onerror = () => { cleanup(); reject(new Error('network')); };
+          const timer = setTimeout(() => { cleanup(); reject(new Error('timeout')); }, timeoutMs || 10000);
+          document.body.appendChild(script);
+        });
+      }
+
+      function showSuccess(message) {
+        // Optional override message — keeps existing success copy by default
+        if (message) {
+          const lede = successState.querySelector('.signup-popup__lede');
+          if (lede) lede.textContent = message;
+        }
+        formState.hidden = true;
+        successState.hidden = false;
+        const closeBtn = successState.querySelector('button');
+        if (closeBtn) closeBtn.focus();
+      }
+
+      function showInlineError(msg) {
+        let errEl = form.querySelector('.signup-popup__error');
+        if (!errEl) {
+          errEl = document.createElement('p');
+          errEl.className = 'signup-popup__error';
+          errEl.setAttribute('role', 'alert');
+          errEl.style.cssText = 'color:#d4a090;font-size:.85rem;margin:.5rem 0 0;letter-spacing:.02em;';
+          form.querySelector('.signup-popup__fineprint').before(errEl);
+        }
+        errEl.textContent = msg;
+      }
+
+      function setSubmitting(isSubmitting) {
+        const btn = form.querySelector('.signup-popup__submit');
+        if (!btn) return;
+        if (isSubmitting) {
+          btn.dataset.originalText = btn.textContent;
+          btn.textContent = 'Signing up\u2026';
+          btn.disabled = true;
+        } else {
+          if (btn.dataset.originalText) btn.textContent = btn.dataset.originalText;
+          btn.disabled = false;
+        }
+      }
+
+      // Mirror the signup into Netlify Forms (registered in /__forms.html) so it
+      // lands in the Netlify dashboard even when Mailchimp rejects or times out.
+      // Fire-and-forget — a failure here must never block the Mailchimp signup.
+      function captureToNetlifyForms(email, phone) {
+        const body = new URLSearchParams();
+        body.append('form-name', 'newsletter-signup');
+        body.append('email', email);
+        body.append('phone', phone || '');
+        body.append('source', 'signup-popup');
+        return fetch('/__forms.html', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: body.toString()
+        }).catch(() => {});
+      }
+
+      if (form) {
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          const email = form.email.value.trim();
+          const phone = form.phone.value.trim();
+          if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+            form.email.focus();
+            form.email.setCustomValidity('Please enter a valid email');
+            form.email.reportValidity();
+            return;
+          }
+          form.email.setCustomValidity('');
+
+          // Fire tracking events if available
+          try {
+            if (window.fbq) window.fbq('track', 'Lead', { content_name: 'Newsletter Signup' });
+            if (window.gtag) window.gtag('event', 'sign_up', { method: 'newsletter_popup' });
+          } catch(err) {}
+
+          // Build Mailchimp payload
+          const params = { EMAIL: email };
+          if (phone) params.PHONE = phone;
+          params[MC.honeypotName] = ''; // honeypot must stay empty
+
+          setSubmitting(true);
+          captureToNetlifyForms(email, phone);
+          try {
+            const data = await mcSubmitJSONP(params, 10000);
+            setSubmitting(false);
+            try { localStorage.setItem(STORAGE_KEY, 'submitted:' + email); } catch(err) {}
+
+            const result = (data && data.result) || '';
+            const msg = (data && data.msg) || '';
+
+            if (result === 'success') {
+              showSuccess();
+            } else if (/already subscribed/i.test(msg) || /is already a list member/i.test(msg)) {
+              showSuccess("You're already on the list. See you soon.");
+            } else if (/too many recent signup requests/i.test(msg)) {
+              showInlineError('Please try again in a moment.');
+            } else if (/invalid/i.test(msg)) {
+              showInlineError('Please check your email and try again.');
+            } else {
+              // Unknown error from Mailchimp — fall back gracefully
+              showInlineError('Something went wrong. Please try again.');
+            }
+          } catch (err) {
+            setSubmitting(false);
+            // Network or timeout — keep popup open, allow retry
+            showInlineError('Connection issue. Please try again.');
+          }
+        });
+      }
+    })();
+
+    // Fade-in
+    if (!CSS.supports('animation-timeline', 'scroll()')) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.clipPath = 'inset(0 0 0 0)';
+            entry.target.style.transition = 'opacity 0.8s cubic-bezier(0.16,1,0.3,1), clip-path 0.8s cubic-bezier(0.16,1,0.3,1)';
+          }
+        });
+      }, { threshold: 0.1 });
+      document.querySelectorAll('.fade-in, .reveal-up').forEach(el => {
+        el.style.opacity = '0';
+        observer.observe(el);
+      });
+    }
+  </script>
+  <script defer="" src="./accessibility-menu.js"></script>
+
+<script async="" src="/.netlify/scripts/ar" data-netlify-deploy-id="6ab68ae5b7a81100088c23b1" data-netlify-site-id="d1610f24-3036-4c35-912d-9b02a98f9b4c" data-agent-runner-id="6ab683e467bc9ffcbc86c3f0"></script>
+
+
+<div id="upkeep-consent-banner" role="dialog" aria-live="polite" aria-label="Cookie consent"><div class="upkeep-consent__inner"><p class="upkeep-consent__text">We use cookies to improve your experience and, with your permission, to show relevant ads and measure marketing performance. See our <a href="/privacy-policy.html">Privacy Policy</a>.</p><div class="upkeep-consent__actions"><button type="button" class="upkeep-consent__btn upkeep-consent__btn--secondary" data-consent="decline">Decline</button><button type="button" class="upkeep-consent__btn upkeep-consent__btn--primary" data-consent="accept">Allow marketing cookies</button></div></div></div><div id="a11y-menu-root">      <button id="a11y-menu-button" type="button" aria-label="Open accessibility menu" aria-expanded="false" aria-controls="a11y-menu-panel">        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">          <circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1.4"></circle>          <circle cx="12" cy="5.4" r="1.6" fill="currentColor"></circle>          <path d="M5.5 8.5 L18.5 8.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"></path>          <path d="M9.5 8.5 L8 18.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"></path>          <path d="M14.5 8.5 L16 18.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"></path>          <path d="M9.2 12 L14.8 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"></path>        </svg>      </button>      <div id="a11y-menu-panel" role="dialog" aria-modal="false" aria-labelledby="a11y-menu-heading" hidden="">        <h2 id="a11y-menu-heading">Accessibility</h2>        <p class="a11y-menu__intro">Quick controls for a more comfortable visit.</p>        <div class="a11y-menu__controls">          <label class="a11y-menu__toggle">            <input type="checkbox" id="a11y-toggle-text">            <span class="a11y-menu__toggle-label">Larger text</span>            <span class="a11y-menu__toggle-switch" aria-hidden="true"></span>          </label>          <label class="a11y-menu__toggle">            <input type="checkbox" id="a11y-toggle-motion">            <span class="a11y-menu__toggle-label">Reduce motion</span>            <span class="a11y-menu__toggle-switch" aria-hidden="true"></span>          </label>          <button type="button" class="a11y-menu__reset" id="a11y-reset">Reset preferences</button>        </div>        <div class="a11y-menu__divider" role="presentation"></div>        <a class="a11y-menu__link" href="./accessibility.html">Read full Accessibility Statement</a>        <div class="a11y-menu__contact">          <p class="a11y-menu__contact-label">Need help? Contact us:</p>          <a href="mailto:info@upkeepmedspa.com">info@upkeepmedspa.com</a>          <a href="tel:+18338753377">(833) 875-3377</a>        </div>      </div></div><div class="upk-pop-overlay upk-flash-overlay upk-pop-open" role="dialog" aria-modal="true" aria-labelledby="upk-flash-title" aria-describedby="upk-flash-offer"><div class="upk-pop-card upk-flash-card"><button type="button" class="upk-pop-close upk-flash-close" aria-label="Close">×</button><div class="upk-flash-media" aria-hidden="true"><img src="./assets/events/flash-sale-40-off-sept2026.png" alt="" width="900" height="1600" decoding="async"><span class="upk-flash-extended">Extended<b>9/24 – 9/27</b></span></div><div class="upk-flash-body"><p class="upk-flash-eyebrow">Flash Sale · All Locations</p><h2 class="upk-flash-title" id="upk-flash-title">40% <em>Off</em></h2><p class="upk-flash-offer" id="upk-flash-offer">A full syringe of JUVÉDERM<sup>®</sup> Ultra XC</p><p class="upk-flash-sub">Pick up — your dream lips are calling.</p><p class="upk-flash-dates"><span>Extended · Through Sunday, Sept 27</span><span class="upk-flash-countdown" data-flash-countdown="">11h 17m left</span></p><div class="upk-flash-step" data-flash-step="choose"><a class="upk-flash-cta" href="https://www.joinblvd.com/b/upkeep-medspa/widget#/locations" target="_blank" rel="noopener noreferrer" data-flash-book="">Book Now</a><p class="upk-flash-note">Your 40% discount is applied automatically at checkout — no code needed.</p><button type="button" class="upk-flash-alt" data-flash-show-form="">Rather we call you? Leave your info</button></div><form class="upk-flash-form" data-flash-step="form" novalidate="" hidden=""><input type="hidden" name="form-name" value="flash-sale-lead"><input type="hidden" name="campaign" value="flash-sale-40-off-sept-2026"><input type="hidden" name="subject" value="Flash sale callback request — 40% off full syringe"><p class="upk-flash-hp" aria-hidden="true"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p><p class="upk-flash-form-lede">Leave your details and we’ll call to book you in before the sale ends.</p><div class="upk-flash-row"><label class="upk-flash-field"><span>First name</span><input type="text" name="fname" autocomplete="given-name" required=""></label><label class="upk-flash-field"><span>Last name</span><input type="text" name="lname" autocomplete="family-name"></label></div><label class="upk-flash-field"><span>Phone</span><input type="tel" name="phone" autocomplete="tel" required=""></label><label class="upk-flash-field"><span>Email</span><input type="email" name="email" autocomplete="email"></label><label class="upk-flash-field"><span>Preferred location</span><select name="location" required=""><option value="" disabled="" selected="">Select a location</option><option value="Upper East Side, NY">Upper East Side, NY</option><option value="Greenwich Village, NY">Greenwich Village, NY</option><option value="Chelsea, NY">Chelsea, NY</option><option value="Brooklyn, NY">Brooklyn, NY</option><option value="Long Island, NY">Long Island, NY</option><option value="Dallas, TX">Dallas, TX</option><option value="Addison, TX">Addison, TX</option><option value="No preference">No preference</option></select></label><button type="submit" class="upk-flash-cta upk-flash-submit">Have Us Contact You</button><p class="upk-flash-status" role="status" aria-live="polite"></p><button type="button" class="upk-flash-alt" data-flash-show-choose="">Back — I’ll book myself</button></form><div class="upk-flash-step upk-flash-success" data-flash-step="success" hidden=""><h3 class="upk-flash-success-title" tabindex="-1">You’re on the list.</h3><p class="upk-flash-success-sub">We’ll reach out shortly to lock in your 40% off. Want a slot right now?</p><a class="upk-flash-cta" href="https://www.joinblvd.com/b/upkeep-medspa/widget#/locations" target="_blank" rel="noopener noreferrer">Book Now Instead</a></div><p class="upk-flash-fine">Terms &amp; conditions apply · All locations · Select providers</p></div></div></div></body>
