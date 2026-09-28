@@ -5,12 +5,14 @@ import { chromium } from "playwright";
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ART = "docs/research/upkeepmedspa-com-9d00bd1f/root-8a5edab2";
+/** The reference site this capture was taken from. Provenance, not a runtime link. */
+const BASE_URL = "https://upkeepmedspa.com/";
 mkdirSync(`${ART}/overlays`, { recursive: true });
 
 const browser = await chromium.launch();
 const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
 const page = await ctx.newPage();
-await page.goto("https://upkeepmedspa.com/", { waitUntil: "networkidle", timeout: 90000 });
+await page.goto(BASE_URL, { waitUntil: "networkidle", timeout: 90000 });
 await page.waitForTimeout(3000);
 
 const targets = [

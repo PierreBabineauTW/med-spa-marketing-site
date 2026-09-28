@@ -78,8 +78,9 @@ const browser = await chromium.launch();
   check("exactly one panel visible initially", v0.panel >= 0, JSON.stringify(v0));
   check("active dot matches visible panel", v0.panel === v0.dot, JSON.stringify(v0));
 
+  // Assert immediately: the carousel also auto-advances every 6s, so a wait here
+  // can race the interval and observe the *next* panel instead of the clicked one.
   await dots.nth(4).click();
-  await page.waitForTimeout(250);
   const v4 = await visibleIdx();
   check("clicking dot 5 shows panel 4", v4.panel === 4 && v4.dot === 4, JSON.stringify(v4));
 

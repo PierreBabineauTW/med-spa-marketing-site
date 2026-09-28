@@ -160,7 +160,7 @@ export function TestimonialsSection() {
             <a
               href={testimonials.note.link.href}
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               style={{
                 color: "var(--color-text-muted)",
                 textDecoration: "underline",

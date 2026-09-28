@@ -28,8 +28,12 @@ await page.setContent("<!doctype html><html><body></body></html>");
 for (const [key, file] of files) {
   const html = readFileSync(`${ART}/sections/${file}`, "utf8");
   const outline = await page.evaluate((markup) => {
-    const host = document.createElement("div");
+    // Parse via a <template>, whose contents are an inert DocumentFragment:
+    // nothing runs and no resource loads. Assigning to innerHTML would build
+    // the same tree but also execute any <script> in the captured markup.
+    const host = document.createElement("template");
     host.innerHTML = markup;
+    const root = host.content;
     const lines = [];
     const ownText = (el) =>
       [...el.childNodes]
@@ -58,7 +62,7 @@ for (const [key, file] of files) {
       lines.push("  ".repeat(d) + `<${tag}${bits.length ? " " + bits.join(" ") : ""}>`);
       for (const c of el.children) walk(c, d + 1);
     };
-    for (const c of host.children) walk(c, 0);
+    for (const c of root.children) walk(c, 0);
     return lines.join("\n");
   }, html);
   writeFileSync(`${OUT}/${key}.txt`, outline);

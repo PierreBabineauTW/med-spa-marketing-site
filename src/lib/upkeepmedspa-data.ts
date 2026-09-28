@@ -336,7 +336,9 @@ export const footer: FooterData = {
     cta: { label: "Book Now", href: BOOKING_URL },
   },
   bottom: {
-    copyright: site.legal.copyright,
+    // The ownership claim is appended only when configured; a template must not
+    // assert who owns a business it knows nothing about.
+    copyright: site.ownership ? `${site.legal.copyright} ${site.ownership}.` : site.legal.copyright,
     links: [
       { label: "Privacy Policy", href: "/privacy-policy" },
       { label: "Cancellation Policy", href: "/cancellation-policy" },
@@ -350,7 +352,7 @@ export const footer: FooterData = {
 export const consentBanner: ConsentBannerData = {
   before:
     "We use cookies to improve your experience and, with your permission, to show relevant ads and measure marketing performance. See our ",
-  link: { label: "Privacy Policy", href: "/privacy-policy.html" },
+  link: { label: "Privacy Policy", href: site.routes.privacy },
   after: ".",
   declineLabel: "Decline",
   acceptLabel: "Allow marketing cookies",

@@ -12,6 +12,8 @@
    1. Mobile menu: unreachable links on short screens (functional fix)
    2. Touch targets on coarse pointers only (zero desktop impact)
    3. Reduced-motion: belt-and-braces for scroll-driven reveals
+   4. Legibility floor: two inherited rules that fall below 10px
+   5. Touch targets for the controls the Phase 2 subpages introduce
    ======================================================================== */
 
 /* ---------------------------------------------------------------------
@@ -159,5 +161,93 @@
   .hero__scroll-hint {
     animation: none !important;
     transform: none !important;
+  }
+}
+
+/* ---------------------------------------------------------------------
+   4. LEGIBILITY FLOOR — two sub-10px rules inherited from the reference
+
+   The ported sheet's smallest type token is `--text-xs`, which clamps to
+   11px at the narrow end by design. Two rules fall below that:
+
+     .loc-pill            0.6rem  ->  9.6px  at <=768px
+     .signup-popup__optional  0.85em of --text-xs  ->  9.57px at 430px
+
+   Both were measured by scripts/qa-responsive.mjs across 26 pages x 8
+   viewports, which fails any text under 10px. 9.6px uppercase with 0.1em
+   letter-spacing is not comfortably readable, so these are floors, not
+   restyling.
+
+   `.loc-pill` is corrected *inside the same breakpoint that shrank it*, and
+   back to the sheet's own `--text-xs` token rather than to a new number. An
+   unscoped override here would have quietly shrunk the desktop pills from 13px
+   to 11px — a silent regression in the approved design. Desktop is untouched.
+
+   `.signup-popup__optional` is `max()` against its own em value, so it only
+   changes where the computed size is already below the floor; at desktop widths
+   `--text-xs` is 13px and `max(11px, 11.05px)` is the original 11.05px.
+
+   The reference shrank `.loc-pill` on mobile to fit seven studio pills on one
+   line. `.loc-pills` is `flex-wrap: wrap`, so letting them wrap is the correct
+   trade — the alternative is text nobody can read.
+   ------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .loc-pill {
+    font-size: var(--text-xs);
+  }
+}
+.signup-popup__optional {
+  font-size: max(0.6875rem, 0.85em);
+}
+
+/* The signup popup's "optional" hint and its labels are the smallest text in
+   any overlay. Bumping the popup's own scale on narrow screens keeps the
+   whole card readable without touching desktop. */
+@media (max-width: 480px) {
+  .signup-popup__label {
+    font-size: 0.75rem;
+  }
+}
+
+/* ---------------------------------------------------------------------
+   5. NEW SUBPAGE CONTROLS — coarse-pointer touch targets
+
+   Phase 1's touch-target work covered the home page. The Phase 2 pages add
+   three new interactive controls that need the same treatment. Still scoped
+   to `(pointer: coarse)`, so mouse rendering is untouched.
+   ------------------------------------------------------------------- */
+@media (pointer: coarse) {
+  /* Studio switcher pills: `padding: 6px 12px` on mobile gives a ~24px tall
+     target. Lifted to 44px without changing the pill's own metrics. */
+  .loc-pill {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  /* Region tabs and the FAQ disclosure rows. */
+  .loc-region-tab,
+  .menu-accordion__trigger {
+    min-height: 44px;
+  }
+
+  /* Gallery lightbox arrows shrink to 40px at <=768px in the ported sheet. */
+  .lightbox__nav {
+    width: 44px;
+    height: 44px;
+  }
+
+  /* The lightbox close button is 36x36. */
+  .lightbox__close {
+    width: 44px;
+    height: 44px;
+  }
+
+  /* Gallery cards are whole-card buttons, so they are already large; this is
+     only for the filter row, which is a row of small pills. */
+  .gallery-filter {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
   }
 }
