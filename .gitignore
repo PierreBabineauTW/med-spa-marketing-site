@@ -47,3 +47,7 @@ next-env.d.ts
 
 # Local temp files
 temp/
+
+# dev server output from scripts/start / npm run dev
+.dev.log
+.dev.err
